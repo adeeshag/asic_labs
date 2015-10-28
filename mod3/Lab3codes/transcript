@@ -1,0 +1,2978 @@
+# //  ModelSim SE 10.0c Jul 21 2011 Linux 2.6.32-573.7.1.el6.x86_64
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+#  
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-3008) test_arbiter.sv(15): [CNNODP] - Component name (clk) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) test_arbiter.sv(15): Unresolved reference to 'clk' in arbif.clk_blk.clk.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.clk_blk.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-8343) test_arbiter.sv(16): Clocking block output arbif.clk_blk.reset is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Error: (vsim-3773) test_arbiter.sv(20): Interface item 'clk' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Warning: (vsim-3008) test_arbiter.sv(15): [CNNODP] - Component name (clk) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) test_arbiter.sv(15): Unresolved reference to 'clk' in arbif.clk_blk.clk.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.clk_blk.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-8343) test_arbiter.sv(16): Clocking block output arbif.clk_blk.reset is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Error: (vsim-3773) test_arbiter.sv(15): Interface item 'clk' is not in modport 'TEST'.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.clk_blk.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-8343) test_arbiter.sv(16): Clocking block output arbif.clk_blk.reset is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-3008) test_arbiter.sv(16): [CNNODP] - Component name (cb) is not on a downward path.
+#         Region: /top/t1
+# ** Error: (vsim-3043) test_arbiter.sv(16): Unresolved reference to 'cb' in arbif.cb.
+#         Region: /top/t1
+# ** Error: (vsim-3773) test_arbiter.sv(15): Interface item 'clk' is not in modport 'TEST'.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-8343) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) test_arbiter.sv(15): Interface item 'clk' is not in modport 'TEST'.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) test_arbiter.sv(15): Interface item 'clk' is not in modport 'TEST'.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) test_arbiter.sv(15): Interface item 'clk' is not in modport 'TEST'.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8637) test_arbiter.sv(16): A modport ('TEST') should not be used in a hierarchical path.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.TEST.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.TEST.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+#                    0ns [TB] Start Testing
+#                    5ns [DUT][RESET] Reseting the DUT: xx
+#                    5ns [TB][RESET] Asserting Reset: x
+#                   15ns [DUT][RESET] Reseting the DUT: 00
+#                   25ns [DUT][RESET] Reseting the DUT: 00
+#                   35ns [DUT][RESET] Reseting the DUT: 00
+#                   45ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [TB][RESET] Clearing Reset: 1
+#                   65ns [DUT][MAIN] Request: 00| Grant: 00
+#                   65ns------------------------------------------------------
+#                   65ns [TB][DRIVER] Drove Request: 11
+#                   65ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   75ns [DUT][MAIN] Request: 11| Grant: 00
+#                   85ns [DUT][MAIN] Request: 11| Grant: 10
+#                   85[TB][CHECKER] Test Failed: 10
+#                   85ns------------------------------------------------------
+#                   85ns [TB][DRIVER] Drove Request: 11
+#                   85ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   95ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105[TB][CHECKER] Test Failed: 10
+#                  105ns------------------------------------------------------
+#                  105ns [TB][DRIVER] Drove Request: 10
+#                  105ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  115ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125[TB][CHECKER] Test Passed: 10
+#                  125ns------------------------------------------------------
+#                  125ns [TB][DRIVER] Drove Request: 01
+#                  125ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  135ns [DUT][MAIN] Request: 01| Grant: 10
+#                  145ns [DUT][MAIN] Request: 01| Grant: 01
+#                  145[TB][CHECKER] Test Passed: 01
+#                  145ns------------------------------------------------------
+#                  145ns [TB][DRIVER] Drove Request: 01
+#                  145ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  155ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165[TB][CHECKER] Test Passed: 01
+#                  165ns------------------------------------------------------
+#                  165ns [TB][DRIVER] Drove Request: 00
+#                  165ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  175ns [DUT][MAIN] Request: 00| Grant: 01
+#                  185ns [DUT][MAIN] Request: 00| Grant: 00
+#                  185[TB][CHECKER] Test Passed: 00
+#                  185ns------------------------------------------------------
+#                  185ns [TB][DRIVER] Drove Request: 11
+#                  185ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  195ns [DUT][MAIN] Request: 11| Grant: 00
+#                  205ns [DUT][MAIN] Request: 11| Grant: 10
+#                  205[TB][CHECKER] Test Failed: 10
+#                  205ns------------------------------------------------------
+#                  205ns [TB][DRIVER] Drove Request: 10
+#                  205ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  215ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225[TB][CHECKER] Test Passed: 10
+#                  225ns------------------------------------------------------
+#                  225ns [TB][DRIVER] Drove Request: 01
+#                  225ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  235ns [DUT][MAIN] Request: 01| Grant: 10
+#                  245ns [DUT][MAIN] Request: 01| Grant: 01
+#                  245[TB][CHECKER] Test Passed: 01
+#                  245ns------------------------------------------------------
+#                  245ns [TB][DRIVER] Drove Request: 10
+#                  245ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  255ns [DUT][MAIN] Request: 10| Grant: 01
+#                  265ns [DUT][MAIN] Request: 10| Grant: 10
+#                  265[TB][CHECKER] Test Passed: 10
+#                  265ns------------------------------------------------------
+#                  265ns [TB][DRIVER] Drove Request: 11
+#                  265ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  275ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285[TB][CHECKER] Test Failed: 10
+#                  285ns------------------------------------------------------
+#                  285ns [TB][DRIVER] Drove Request: 01
+#                  285ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  295ns [DUT][MAIN] Request: 01| Grant: 10
+#                  305ns [DUT][MAIN] Request: 01| Grant: 01
+#                  305[TB][CHECKER] Test Passed: 01
+#                  305ns------------------------------------------------------
+#                  305ns [TB][DRIVER] Drove Request: 11
+#                  305ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  315ns [DUT][MAIN] Request: 11| Grant: 01
+#                  325ns [DUT][MAIN] Request: 11| Grant: 10
+#                  325[TB][CHECKER] Test Failed: 10
+#                  325ns------------------------------------------------------
+#                  325ns [TB][DRIVER] Drove Request: 01
+#                  325ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  335ns [DUT][MAIN] Request: 01| Grant: 10
+#                  345ns [DUT][MAIN] Request: 01| Grant: 01
+#                  345[TB][CHECKER] Test Passed: 01
+#                  345ns------------------------------------------------------
+#                  345ns [TB][DRIVER] Drove Request: 11
+#                  345ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  355ns [DUT][MAIN] Request: 11| Grant: 01
+#                  365ns [DUT][MAIN] Request: 11| Grant: 10
+#                  365[TB][CHECKER] Test Failed: 10
+#                  365ns------------------------------------------------------
+#                  365ns [TB][DRIVER] Drove Request: 00
+#                  365ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  375ns [DUT][MAIN] Request: 00| Grant: 10
+#                  385ns [DUT][MAIN] Request: 00| Grant: 00
+#                  385[TB][CHECKER] Test Passed: 00
+#                  385ns------------------------------------------------------
+#                  385ns [TB][DRIVER] Drove Request: 10
+#                  385ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  395ns [DUT][MAIN] Request: 10| Grant: 00
+#                  405ns [DUT][MAIN] Request: 10| Grant: 10
+#                  405[TB][CHECKER] Test Passed: 10
+#                  405ns------------------------------------------------------
+#                  405ns [TB][DRIVER] Drove Request: 00
+#                  405ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  415ns [DUT][MAIN] Request: 00| Grant: 10
+#                  425ns [DUT][MAIN] Request: 00| Grant: 00
+#                  425[TB][CHECKER] Test Passed: 00
+#                  425ns------------------------------------------------------
+#                  425ns [TB][DRIVER] Drove Request: 11
+#                  425ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  435ns [DUT][MAIN] Request: 11| Grant: 00
+#                  445ns [DUT][MAIN] Request: 11| Grant: 10
+#                  445[TB][CHECKER] Test Failed: 10
+#                  445ns------------------------------------------------------
+#                  445ns [TB][DRIVER] Drove Request: 11
+#                  445ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  455ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465[TB][CHECKER] Test Failed: 10
+#                  465ns------------------------------------------------------
+#                  465ns [TB][DRIVER] Drove Request: 00
+#                  465ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  475ns [DUT][MAIN] Request: 00| Grant: 10
+#                  485ns [DUT][MAIN] Request: 00| Grant: 00
+#                  485[TB][CHECKER] Test Passed: 00
+#                  485ns------------------------------------------------------
+#                  485ns [TB][DRIVER] Drove Request: 01
+#                  485ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  495ns [DUT][MAIN] Request: 01| Grant: 00
+#                  505ns [DUT][MAIN] Request: 01| Grant: 01
+#                  505[TB][CHECKER] Test Passed: 01
+#                  505ns------------------------------------------------------
+#                  505ns [TB][DRIVER] Drove Request: 01
+#                  505ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  515ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525[TB][CHECKER] Test Passed: 01
+#                  525ns------------------------------------------------------
+#                  525ns [TB][DRIVER] Drove Request: 01
+#                  525ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  535ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545[TB][CHECKER] Test Passed: 01
+#                  545ns------------------------------------------------------
+#                  545ns [TB][DRIVER] Drove Request: 01
+#                  545ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  555ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565[TB][CHECKER] Test Passed: 01
+#                  565ns------------------------------------------------------
+#                  565ns [TB][DRIVER] Drove Request: 00
+#                  565ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  575ns [DUT][MAIN] Request: 00| Grant: 01
+#                  585ns [DUT][MAIN] Request: 00| Grant: 00
+#                  585[TB][CHECKER] Test Passed: 00
+#                  585ns------------------------------------------------------
+#                  585ns [TB][DRIVER] Drove Request: 10
+#                  585ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  595ns [DUT][MAIN] Request: 10| Grant: 00
+#                  605ns [DUT][MAIN] Request: 10| Grant: 10
+#                  605[TB][CHECKER] Test Passed: 10
+#                  605ns------------------------------------------------------
+#                  605ns [TB][DRIVER] Drove Request: 10
+#                  605ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  615ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625[TB][CHECKER] Test Passed: 10
+#                  625ns------------------------------------------------------
+#                  625ns [TB][DRIVER] Drove Request: 11
+#                  625ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  635ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645[TB][CHECKER] Test Failed: 10
+#                  645ns------------------------------------------------------
+#                  645ns [TB][DRIVER] Drove Request: 00
+#                  645ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  655ns [DUT][MAIN] Request: 00| Grant: 10
+#                  665ns [DUT][MAIN] Request: 00| Grant: 00
+#                  665[TB][CHECKER] Test Passed: 00
+#                  665ns------------------------------------------------------
+#                  665ns [TB][DRIVER] Drove Request: 01
+#                  665ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  675ns [DUT][MAIN] Request: 01| Grant: 00
+#                  685ns [DUT][MAIN] Request: 01| Grant: 01
+#                  685[TB][CHECKER] Test Passed: 01
+#                  685ns------------------------------------------------------
+#                  685ns [TB][DRIVER] Drove Request: 00
+#                  685ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  695ns [DUT][MAIN] Request: 00| Grant: 01
+#                  705ns [DUT][MAIN] Request: 00| Grant: 00
+#                  705[TB][CHECKER] Test Passed: 00
+#                  705ns------------------------------------------------------
+#                  705ns [TB][DRIVER] Drove Request: 01
+#                  705ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  715ns [DUT][MAIN] Request: 01| Grant: 00
+#                  725ns [DUT][MAIN] Request: 01| Grant: 01
+#                  725[TB][CHECKER] Test Passed: 01
+#                  725ns------------------------------------------------------
+#                  725ns [TB][DRIVER] Drove Request: 01
+#                  725ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  735ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745[TB][CHECKER] Test Passed: 01
+#                  745ns------------------------------------------------------
+#                  745ns [TB][DRIVER] Drove Request: 11
+#                  745ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  755ns [DUT][MAIN] Request: 11| Grant: 01
+#                  765ns [DUT][MAIN] Request: 11| Grant: 10
+#                  765[TB][CHECKER] Test Failed: 10
+#                  765ns------------------------------------------------------
+#                  765ns [TB][DRIVER] Drove Request: 11
+#                  765ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  775ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785[TB][CHECKER] Test Failed: 10
+#                  785ns------------------------------------------------------
+#                  785ns [TB][DRIVER] Drove Request: 00
+#                  785ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  795ns [DUT][MAIN] Request: 00| Grant: 10
+#                  805ns [DUT][MAIN] Request: 00| Grant: 00
+#                  805[TB][CHECKER] Test Passed: 00
+#                  805ns------------------------------------------------------
+#                  805ns [TB][DRIVER] Drove Request: 00
+#                  805ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  815ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825[TB][CHECKER] Test Passed: 00
+#                  825ns------------------------------------------------------
+#                  825ns [TB][DRIVER] Drove Request: 11
+#                  825ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  835ns [DUT][MAIN] Request: 11| Grant: 00
+#                  845ns [DUT][MAIN] Request: 11| Grant: 10
+#                  845[TB][CHECKER] Test Failed: 10
+#                  845ns------------------------------------------------------
+#                  845ns [TB][DRIVER] Drove Request: 01
+#                  845ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  855ns [DUT][MAIN] Request: 01| Grant: 10
+#                  865ns [DUT][MAIN] Request: 01| Grant: 01
+#                  865[TB][CHECKER] Test Passed: 01
+#                  865----------[TB][FINAL] TEST STATS---------
+#                  865TEST PASSED:          28
+#                  865TEST FAILED:          12
+#                  865TEST TOTAL:          40
+# ** Note: $finish    : test_arbiter.sv(47)
+#    Time: 8650 ns  Iteration: 1  Instance: /top/t1
+# 1
+# Break in Module test_arbiter at test_arbiter.sv line 47
+# Simulation Breakpoint: 1
+# Break in Module test_arbiter at test_arbiter.sv line 47
+# MACRO ./compile.do PAUSED at line 9
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8637) test_arbiter.sv(16): A modport ('TEST') should not be used in a hierarchical path.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.TEST.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-8343) test_arbiter.sv(16): Clocking block output arbif.TEST.cb.reset is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8637) test_arbiter.sv(16): A modport ('TEST') should not be used in a hierarchical path.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.TEST.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-8343) test_arbiter.sv(16): Clocking block output arbif.TEST.cb.reset is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-8343) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) test_arbiter.sv(15): Interface item 'clk' is not in modport 'TEST'.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+restart -f
+# No Design Loaded!
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-8343) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) test_arbiter.sv(15): Interface item 'clk' is not in modport 'TEST'.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+vsim test_arbiter
+# vsim test_arbiter 
+# Loading sv_std.std
+# Loading work.test_arbiter
+# ** Fatal: (vsim-3695) test_arbiter.sv(0): The interface port 'arbif' must be passed an actual interface.
+#    Time: 0 ps  Iteration: 0  Instance: /test_arbiter File: test_arbiter.sv
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-8343) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal
+# for the left hand side of this or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) test_arbiter.sv(15): Interface item 'clk' is not in modport 'TEST'.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Error: (vsim-3773) test_arbiter.sv(15): Interface item 'clk' is not in modport 'TEST'.
+#         Region: /top/t1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 7
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+#                    0ns [TB] Start Testing
+#                    5ns [DUT][RESET] Reseting the DUT: xx
+#                    5ns [TB][RESET] Asserting Reset: x
+#                   15ns [DUT][RESET] Reseting the DUT: 00
+#                   25ns [DUT][RESET] Reseting the DUT: 00
+#                   35ns [DUT][RESET] Reseting the DUT: 00
+#                   45ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [TB][RESET] Clearing Reset: 1
+#                   65ns [DUT][MAIN] Request: 00| Grant: 00
+#                   65ns------------------------------------------------------
+#                   65ns [TB][DRIVER] Drove Request: 11
+#                   65ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   75ns [DUT][MAIN] Request: 11| Grant: 00
+#                   85ns [DUT][MAIN] Request: 11| Grant: 10
+#                   85[TB][CHECKER] Test Failed: 10
+#                   85ns------------------------------------------------------
+#                   85ns [TB][DRIVER] Drove Request: 11
+#                   85ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   95ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105[TB][CHECKER] Test Failed: 10
+#                  105ns------------------------------------------------------
+#                  105ns [TB][DRIVER] Drove Request: 10
+#                  105ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  115ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125[TB][CHECKER] Test Passed: 10
+#                  125ns------------------------------------------------------
+#                  125ns [TB][DRIVER] Drove Request: 01
+#                  125ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  135ns [DUT][MAIN] Request: 01| Grant: 10
+#                  145ns [DUT][MAIN] Request: 01| Grant: 01
+#                  145[TB][CHECKER] Test Passed: 01
+#                  145ns------------------------------------------------------
+#                  145ns [TB][DRIVER] Drove Request: 01
+#                  145ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  155ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165[TB][CHECKER] Test Passed: 01
+#                  165ns------------------------------------------------------
+#                  165ns [TB][DRIVER] Drove Request: 00
+#                  165ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  175ns [DUT][MAIN] Request: 00| Grant: 01
+#                  185ns [DUT][MAIN] Request: 00| Grant: 00
+#                  185[TB][CHECKER] Test Passed: 00
+#                  185ns------------------------------------------------------
+#                  185ns [TB][DRIVER] Drove Request: 11
+#                  185ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  195ns [DUT][MAIN] Request: 11| Grant: 00
+#                  205ns [DUT][MAIN] Request: 11| Grant: 10
+#                  205[TB][CHECKER] Test Failed: 10
+#                  205ns------------------------------------------------------
+#                  205ns [TB][DRIVER] Drove Request: 10
+#                  205ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  215ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225[TB][CHECKER] Test Passed: 10
+#                  225ns------------------------------------------------------
+#                  225ns [TB][DRIVER] Drove Request: 01
+#                  225ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  235ns [DUT][MAIN] Request: 01| Grant: 10
+#                  245ns [DUT][MAIN] Request: 01| Grant: 01
+#                  245[TB][CHECKER] Test Passed: 01
+#                  245ns------------------------------------------------------
+#                  245ns [TB][DRIVER] Drove Request: 10
+#                  245ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  255ns [DUT][MAIN] Request: 10| Grant: 01
+#                  265ns [DUT][MAIN] Request: 10| Grant: 10
+#                  265[TB][CHECKER] Test Passed: 10
+#                  265ns------------------------------------------------------
+#                  265ns [TB][DRIVER] Drove Request: 11
+#                  265ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  275ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285[TB][CHECKER] Test Failed: 10
+#                  285ns------------------------------------------------------
+#                  285ns [TB][DRIVER] Drove Request: 01
+#                  285ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  295ns [DUT][MAIN] Request: 01| Grant: 10
+#                  305ns [DUT][MAIN] Request: 01| Grant: 01
+#                  305[TB][CHECKER] Test Passed: 01
+#                  305ns------------------------------------------------------
+#                  305ns [TB][DRIVER] Drove Request: 11
+#                  305ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  315ns [DUT][MAIN] Request: 11| Grant: 01
+#                  325ns [DUT][MAIN] Request: 11| Grant: 10
+#                  325[TB][CHECKER] Test Failed: 10
+#                  325ns------------------------------------------------------
+#                  325ns [TB][DRIVER] Drove Request: 01
+#                  325ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  335ns [DUT][MAIN] Request: 01| Grant: 10
+#                  345ns [DUT][MAIN] Request: 01| Grant: 01
+#                  345[TB][CHECKER] Test Passed: 01
+#                  345ns------------------------------------------------------
+#                  345ns [TB][DRIVER] Drove Request: 11
+#                  345ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  355ns [DUT][MAIN] Request: 11| Grant: 01
+#                  365ns [DUT][MAIN] Request: 11| Grant: 10
+#                  365[TB][CHECKER] Test Failed: 10
+#                  365ns------------------------------------------------------
+#                  365ns [TB][DRIVER] Drove Request: 00
+#                  365ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  375ns [DUT][MAIN] Request: 00| Grant: 10
+#                  385ns [DUT][MAIN] Request: 00| Grant: 00
+#                  385[TB][CHECKER] Test Passed: 00
+#                  385ns------------------------------------------------------
+#                  385ns [TB][DRIVER] Drove Request: 10
+#                  385ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  395ns [DUT][MAIN] Request: 10| Grant: 00
+#                  405ns [DUT][MAIN] Request: 10| Grant: 10
+#                  405[TB][CHECKER] Test Passed: 10
+#                  405ns------------------------------------------------------
+#                  405ns [TB][DRIVER] Drove Request: 00
+#                  405ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  415ns [DUT][MAIN] Request: 00| Grant: 10
+#                  425ns [DUT][MAIN] Request: 00| Grant: 00
+#                  425[TB][CHECKER] Test Passed: 00
+#                  425ns------------------------------------------------------
+#                  425ns [TB][DRIVER] Drove Request: 11
+#                  425ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  435ns [DUT][MAIN] Request: 11| Grant: 00
+#                  445ns [DUT][MAIN] Request: 11| Grant: 10
+#                  445[TB][CHECKER] Test Failed: 10
+#                  445ns------------------------------------------------------
+#                  445ns [TB][DRIVER] Drove Request: 11
+#                  445ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  455ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465[TB][CHECKER] Test Failed: 10
+#                  465ns------------------------------------------------------
+#                  465ns [TB][DRIVER] Drove Request: 00
+#                  465ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  475ns [DUT][MAIN] Request: 00| Grant: 10
+#                  485ns [DUT][MAIN] Request: 00| Grant: 00
+#                  485[TB][CHECKER] Test Passed: 00
+#                  485ns------------------------------------------------------
+#                  485ns [TB][DRIVER] Drove Request: 01
+#                  485ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  495ns [DUT][MAIN] Request: 01| Grant: 00
+#                  505ns [DUT][MAIN] Request: 01| Grant: 01
+#                  505[TB][CHECKER] Test Passed: 01
+#                  505ns------------------------------------------------------
+#                  505ns [TB][DRIVER] Drove Request: 01
+#                  505ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  515ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525[TB][CHECKER] Test Passed: 01
+#                  525ns------------------------------------------------------
+#                  525ns [TB][DRIVER] Drove Request: 01
+#                  525ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  535ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545[TB][CHECKER] Test Passed: 01
+#                  545ns------------------------------------------------------
+#                  545ns [TB][DRIVER] Drove Request: 01
+#                  545ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  555ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565[TB][CHECKER] Test Passed: 01
+#                  565ns------------------------------------------------------
+#                  565ns [TB][DRIVER] Drove Request: 00
+#                  565ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  575ns [DUT][MAIN] Request: 00| Grant: 01
+#                  585ns [DUT][MAIN] Request: 00| Grant: 00
+#                  585[TB][CHECKER] Test Passed: 00
+#                  585ns------------------------------------------------------
+#                  585ns [TB][DRIVER] Drove Request: 10
+#                  585ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  595ns [DUT][MAIN] Request: 10| Grant: 00
+#                  605ns [DUT][MAIN] Request: 10| Grant: 10
+#                  605[TB][CHECKER] Test Passed: 10
+#                  605ns------------------------------------------------------
+#                  605ns [TB][DRIVER] Drove Request: 10
+#                  605ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  615ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625[TB][CHECKER] Test Passed: 10
+#                  625ns------------------------------------------------------
+#                  625ns [TB][DRIVER] Drove Request: 11
+#                  625ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  635ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645[TB][CHECKER] Test Failed: 10
+#                  645ns------------------------------------------------------
+#                  645ns [TB][DRIVER] Drove Request: 00
+#                  645ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  655ns [DUT][MAIN] Request: 00| Grant: 10
+#                  665ns [DUT][MAIN] Request: 00| Grant: 00
+#                  665[TB][CHECKER] Test Passed: 00
+#                  665ns------------------------------------------------------
+#                  665ns [TB][DRIVER] Drove Request: 01
+#                  665ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  675ns [DUT][MAIN] Request: 01| Grant: 00
+#                  685ns [DUT][MAIN] Request: 01| Grant: 01
+#                  685[TB][CHECKER] Test Passed: 01
+#                  685ns------------------------------------------------------
+#                  685ns [TB][DRIVER] Drove Request: 00
+#                  685ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  695ns [DUT][MAIN] Request: 00| Grant: 01
+#                  705ns [DUT][MAIN] Request: 00| Grant: 00
+#                  705[TB][CHECKER] Test Passed: 00
+#                  705ns------------------------------------------------------
+#                  705ns [TB][DRIVER] Drove Request: 01
+#                  705ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  715ns [DUT][MAIN] Request: 01| Grant: 00
+#                  725ns [DUT][MAIN] Request: 01| Grant: 01
+#                  725[TB][CHECKER] Test Passed: 01
+#                  725ns------------------------------------------------------
+#                  725ns [TB][DRIVER] Drove Request: 01
+#                  725ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  735ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745[TB][CHECKER] Test Passed: 01
+#                  745ns------------------------------------------------------
+#                  745ns [TB][DRIVER] Drove Request: 11
+#                  745ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  755ns [DUT][MAIN] Request: 11| Grant: 01
+#                  765ns [DUT][MAIN] Request: 11| Grant: 10
+#                  765[TB][CHECKER] Test Failed: 10
+#                  765ns------------------------------------------------------
+#                  765ns [TB][DRIVER] Drove Request: 11
+#                  765ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  775ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785[TB][CHECKER] Test Failed: 10
+#                  785ns------------------------------------------------------
+#                  785ns [TB][DRIVER] Drove Request: 00
+#                  785ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  795ns [DUT][MAIN] Request: 00| Grant: 10
+#                  805ns [DUT][MAIN] Request: 00| Grant: 00
+#                  805[TB][CHECKER] Test Passed: 00
+#                  805ns------------------------------------------------------
+#                  805ns [TB][DRIVER] Drove Request: 00
+#                  805ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  815ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825[TB][CHECKER] Test Passed: 00
+#                  825ns------------------------------------------------------
+#                  825ns [TB][DRIVER] Drove Request: 11
+#                  825ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  835ns [DUT][MAIN] Request: 11| Grant: 00
+#                  845ns [DUT][MAIN] Request: 11| Grant: 10
+#                  845[TB][CHECKER] Test Failed: 10
+#                  845ns------------------------------------------------------
+#                  845ns [TB][DRIVER] Drove Request: 01
+#                  845ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  855ns [DUT][MAIN] Request: 01| Grant: 10
+#                  865ns [DUT][MAIN] Request: 01| Grant: 01
+#                  865[TB][CHECKER] Test Passed: 01
+#                  865----------[TB][FINAL] TEST STATS---------
+#                  865TEST PASSED:          28
+#                  865TEST FAILED:          12
+#                  865TEST TOTAL:          40
+# ** Note: $finish    : test_arbiter.sv(49)
+#    Time: 8650 ns  Iteration: 1  Instance: /top/t1
+# 1
+# Break in Module test_arbiter at test_arbiter.sv line 49
+# Simulation Breakpoint: 1
+# Break in Module test_arbiter at test_arbiter.sv line 49
+# MACRO ./compile.do PAUSED at line 9
+add wave sim:/top/*
+add wave sim:/top/arbif/*
+restart -f
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+run -a
+#                    0ns [TB] Start Testing
+#                    5ns [DUT][RESET] Reseting the DUT: xx
+#                    5ns [TB][RESET] Asserting Reset: x
+#                   15ns [DUT][RESET] Reseting the DUT: 00
+#                   25ns [DUT][RESET] Reseting the DUT: 00
+#                   35ns [DUT][RESET] Reseting the DUT: 00
+#                   45ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [TB][RESET] Clearing Reset: 1
+#                   65ns [DUT][MAIN] Request: 00| Grant: 00
+#                   65ns------------------------------------------------------
+#                   65ns [TB][DRIVER] Drove Request: 11
+#                   65ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   75ns [DUT][MAIN] Request: 11| Grant: 00
+#                   85ns [DUT][MAIN] Request: 11| Grant: 10
+#                   85[TB][CHECKER] Test Failed: 10
+#                   85ns------------------------------------------------------
+#                   85ns [TB][DRIVER] Drove Request: 11
+#                   85ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   95ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105[TB][CHECKER] Test Failed: 10
+#                  105ns------------------------------------------------------
+#                  105ns [TB][DRIVER] Drove Request: 10
+#                  105ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  115ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125[TB][CHECKER] Test Passed: 10
+#                  125ns------------------------------------------------------
+#                  125ns [TB][DRIVER] Drove Request: 01
+#                  125ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  135ns [DUT][MAIN] Request: 01| Grant: 10
+#                  145ns [DUT][MAIN] Request: 01| Grant: 01
+#                  145[TB][CHECKER] Test Passed: 01
+#                  145ns------------------------------------------------------
+#                  145ns [TB][DRIVER] Drove Request: 01
+#                  145ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  155ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165[TB][CHECKER] Test Passed: 01
+#                  165ns------------------------------------------------------
+#                  165ns [TB][DRIVER] Drove Request: 00
+#                  165ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  175ns [DUT][MAIN] Request: 00| Grant: 01
+#                  185ns [DUT][MAIN] Request: 00| Grant: 00
+#                  185[TB][CHECKER] Test Passed: 00
+#                  185ns------------------------------------------------------
+#                  185ns [TB][DRIVER] Drove Request: 11
+#                  185ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  195ns [DUT][MAIN] Request: 11| Grant: 00
+#                  205ns [DUT][MAIN] Request: 11| Grant: 10
+#                  205[TB][CHECKER] Test Failed: 10
+#                  205ns------------------------------------------------------
+#                  205ns [TB][DRIVER] Drove Request: 10
+#                  205ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  215ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225[TB][CHECKER] Test Passed: 10
+#                  225ns------------------------------------------------------
+#                  225ns [TB][DRIVER] Drove Request: 01
+#                  225ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  235ns [DUT][MAIN] Request: 01| Grant: 10
+#                  245ns [DUT][MAIN] Request: 01| Grant: 01
+#                  245[TB][CHECKER] Test Passed: 01
+#                  245ns------------------------------------------------------
+#                  245ns [TB][DRIVER] Drove Request: 10
+#                  245ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  255ns [DUT][MAIN] Request: 10| Grant: 01
+#                  265ns [DUT][MAIN] Request: 10| Grant: 10
+#                  265[TB][CHECKER] Test Passed: 10
+#                  265ns------------------------------------------------------
+#                  265ns [TB][DRIVER] Drove Request: 11
+#                  265ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  275ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285[TB][CHECKER] Test Failed: 10
+#                  285ns------------------------------------------------------
+#                  285ns [TB][DRIVER] Drove Request: 01
+#                  285ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  295ns [DUT][MAIN] Request: 01| Grant: 10
+#                  305ns [DUT][MAIN] Request: 01| Grant: 01
+#                  305[TB][CHECKER] Test Passed: 01
+#                  305ns------------------------------------------------------
+#                  305ns [TB][DRIVER] Drove Request: 11
+#                  305ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  315ns [DUT][MAIN] Request: 11| Grant: 01
+#                  325ns [DUT][MAIN] Request: 11| Grant: 10
+#                  325[TB][CHECKER] Test Failed: 10
+#                  325ns------------------------------------------------------
+#                  325ns [TB][DRIVER] Drove Request: 01
+#                  325ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  335ns [DUT][MAIN] Request: 01| Grant: 10
+#                  345ns [DUT][MAIN] Request: 01| Grant: 01
+#                  345[TB][CHECKER] Test Passed: 01
+#                  345ns------------------------------------------------------
+#                  345ns [TB][DRIVER] Drove Request: 11
+#                  345ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  355ns [DUT][MAIN] Request: 11| Grant: 01
+#                  365ns [DUT][MAIN] Request: 11| Grant: 10
+#                  365[TB][CHECKER] Test Failed: 10
+#                  365ns------------------------------------------------------
+#                  365ns [TB][DRIVER] Drove Request: 00
+#                  365ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  375ns [DUT][MAIN] Request: 00| Grant: 10
+#                  385ns [DUT][MAIN] Request: 00| Grant: 00
+#                  385[TB][CHECKER] Test Passed: 00
+#                  385ns------------------------------------------------------
+#                  385ns [TB][DRIVER] Drove Request: 10
+#                  385ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  395ns [DUT][MAIN] Request: 10| Grant: 00
+#                  405ns [DUT][MAIN] Request: 10| Grant: 10
+#                  405[TB][CHECKER] Test Passed: 10
+#                  405ns------------------------------------------------------
+#                  405ns [TB][DRIVER] Drove Request: 00
+#                  405ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  415ns [DUT][MAIN] Request: 00| Grant: 10
+#                  425ns [DUT][MAIN] Request: 00| Grant: 00
+#                  425[TB][CHECKER] Test Passed: 00
+#                  425ns------------------------------------------------------
+#                  425ns [TB][DRIVER] Drove Request: 11
+#                  425ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  435ns [DUT][MAIN] Request: 11| Grant: 00
+#                  445ns [DUT][MAIN] Request: 11| Grant: 10
+#                  445[TB][CHECKER] Test Failed: 10
+#                  445ns------------------------------------------------------
+#                  445ns [TB][DRIVER] Drove Request: 11
+#                  445ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  455ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465[TB][CHECKER] Test Failed: 10
+#                  465ns------------------------------------------------------
+#                  465ns [TB][DRIVER] Drove Request: 00
+#                  465ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  475ns [DUT][MAIN] Request: 00| Grant: 10
+#                  485ns [DUT][MAIN] Request: 00| Grant: 00
+#                  485[TB][CHECKER] Test Passed: 00
+#                  485ns------------------------------------------------------
+#                  485ns [TB][DRIVER] Drove Request: 01
+#                  485ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  495ns [DUT][MAIN] Request: 01| Grant: 00
+#                  505ns [DUT][MAIN] Request: 01| Grant: 01
+#                  505[TB][CHECKER] Test Passed: 01
+#                  505ns------------------------------------------------------
+#                  505ns [TB][DRIVER] Drove Request: 01
+#                  505ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  515ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525[TB][CHECKER] Test Passed: 01
+#                  525ns------------------------------------------------------
+#                  525ns [TB][DRIVER] Drove Request: 01
+#                  525ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  535ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545[TB][CHECKER] Test Passed: 01
+#                  545ns------------------------------------------------------
+#                  545ns [TB][DRIVER] Drove Request: 01
+#                  545ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  555ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565[TB][CHECKER] Test Passed: 01
+#                  565ns------------------------------------------------------
+#                  565ns [TB][DRIVER] Drove Request: 00
+#                  565ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  575ns [DUT][MAIN] Request: 00| Grant: 01
+#                  585ns [DUT][MAIN] Request: 00| Grant: 00
+#                  585[TB][CHECKER] Test Passed: 00
+#                  585ns------------------------------------------------------
+#                  585ns [TB][DRIVER] Drove Request: 10
+#                  585ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  595ns [DUT][MAIN] Request: 10| Grant: 00
+#                  605ns [DUT][MAIN] Request: 10| Grant: 10
+#                  605[TB][CHECKER] Test Passed: 10
+#                  605ns------------------------------------------------------
+#                  605ns [TB][DRIVER] Drove Request: 10
+#                  605ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  615ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625[TB][CHECKER] Test Passed: 10
+#                  625ns------------------------------------------------------
+#                  625ns [TB][DRIVER] Drove Request: 11
+#                  625ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  635ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645[TB][CHECKER] Test Failed: 10
+#                  645ns------------------------------------------------------
+#                  645ns [TB][DRIVER] Drove Request: 00
+#                  645ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  655ns [DUT][MAIN] Request: 00| Grant: 10
+#                  665ns [DUT][MAIN] Request: 00| Grant: 00
+#                  665[TB][CHECKER] Test Passed: 00
+#                  665ns------------------------------------------------------
+#                  665ns [TB][DRIVER] Drove Request: 01
+#                  665ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  675ns [DUT][MAIN] Request: 01| Grant: 00
+#                  685ns [DUT][MAIN] Request: 01| Grant: 01
+#                  685[TB][CHECKER] Test Passed: 01
+#                  685ns------------------------------------------------------
+#                  685ns [TB][DRIVER] Drove Request: 00
+#                  685ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  695ns [DUT][MAIN] Request: 00| Grant: 01
+#                  705ns [DUT][MAIN] Request: 00| Grant: 00
+#                  705[TB][CHECKER] Test Passed: 00
+#                  705ns------------------------------------------------------
+#                  705ns [TB][DRIVER] Drove Request: 01
+#                  705ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  715ns [DUT][MAIN] Request: 01| Grant: 00
+#                  725ns [DUT][MAIN] Request: 01| Grant: 01
+#                  725[TB][CHECKER] Test Passed: 01
+#                  725ns------------------------------------------------------
+#                  725ns [TB][DRIVER] Drove Request: 01
+#                  725ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  735ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745[TB][CHECKER] Test Passed: 01
+#                  745ns------------------------------------------------------
+#                  745ns [TB][DRIVER] Drove Request: 11
+#                  745ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  755ns [DUT][MAIN] Request: 11| Grant: 01
+#                  765ns [DUT][MAIN] Request: 11| Grant: 10
+#                  765[TB][CHECKER] Test Failed: 10
+#                  765ns------------------------------------------------------
+#                  765ns [TB][DRIVER] Drove Request: 11
+#                  765ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  775ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785[TB][CHECKER] Test Failed: 10
+#                  785ns------------------------------------------------------
+#                  785ns [TB][DRIVER] Drove Request: 00
+#                  785ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  795ns [DUT][MAIN] Request: 00| Grant: 10
+#                  805ns [DUT][MAIN] Request: 00| Grant: 00
+#                  805[TB][CHECKER] Test Passed: 00
+#                  805ns------------------------------------------------------
+#                  805ns [TB][DRIVER] Drove Request: 00
+#                  805ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  815ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825[TB][CHECKER] Test Passed: 00
+#                  825ns------------------------------------------------------
+#                  825ns [TB][DRIVER] Drove Request: 11
+#                  825ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  835ns [DUT][MAIN] Request: 11| Grant: 00
+#                  845ns [DUT][MAIN] Request: 11| Grant: 10
+#                  845[TB][CHECKER] Test Failed: 10
+#                  845ns------------------------------------------------------
+#                  845ns [TB][DRIVER] Drove Request: 01
+#                  845ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  855ns [DUT][MAIN] Request: 01| Grant: 10
+#                  865ns [DUT][MAIN] Request: 01| Grant: 01
+#                  865[TB][CHECKER] Test Passed: 01
+#                  865----------[TB][FINAL] TEST STATS---------
+#                  865TEST PASSED:          28
+#                  865TEST FAILED:          12
+#                  865TEST TOTAL:          40
+# ** Note: $finish    : test_arbiter.sv(49)
+#    Time: 8650 ns  Iteration: 1  Instance: /top/t1
+# 1
+# Break in Module test_arbiter at test_arbiter.sv line 49
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+#                    0ns [TB] Start Testing
+#                    5ns [DUT][RESET] Reseting the DUT: xx
+#                    5ns [TB][RESET] Asserting Reset: x
+#                   15ns [DUT][RESET] Reseting the DUT: 00
+#                   25ns [DUT][RESET] Reseting the DUT: 00
+#                   35ns [DUT][RESET] Reseting the DUT: 00
+#                   45ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [TB][RESET] Clearing Reset: 1
+#                   65ns [DUT][MAIN] Request: 00| Grant: 00
+#                   65ns------------------------------------------------------
+#                   65ns [TB][DRIVER] Drove Request: 11
+#                   65ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   75ns [DUT][MAIN] Request: 11| Grant: 00
+#                   85ns [DUT][MAIN] Request: 11| Grant: 10
+#                   85[TB][CHECKER] Test Failed: 10
+#                   85ns------------------------------------------------------
+#                   85ns [TB][DRIVER] Drove Request: 11
+#                   85ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   95ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105[TB][CHECKER] Test Failed: 10
+#                  105ns------------------------------------------------------
+#                  105ns [TB][DRIVER] Drove Request: 10
+#                  105ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  115ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125[TB][CHECKER] Test Passed: 10
+#                  125ns------------------------------------------------------
+#                  125ns [TB][DRIVER] Drove Request: 01
+#                  125ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  135ns [DUT][MAIN] Request: 01| Grant: 10
+#                  145ns [DUT][MAIN] Request: 01| Grant: 01
+#                  145[TB][CHECKER] Test Passed: 01
+#                  145ns------------------------------------------------------
+#                  145ns [TB][DRIVER] Drove Request: 01
+#                  145ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  155ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165[TB][CHECKER] Test Passed: 01
+#                  165ns------------------------------------------------------
+#                  165ns [TB][DRIVER] Drove Request: 00
+#                  165ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  175ns [DUT][MAIN] Request: 00| Grant: 01
+#                  185ns [DUT][MAIN] Request: 00| Grant: 00
+#                  185[TB][CHECKER] Test Passed: 00
+#                  185ns------------------------------------------------------
+#                  185ns [TB][DRIVER] Drove Request: 11
+#                  185ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  195ns [DUT][MAIN] Request: 11| Grant: 00
+#                  205ns [DUT][MAIN] Request: 11| Grant: 10
+#                  205[TB][CHECKER] Test Failed: 10
+#                  205ns------------------------------------------------------
+#                  205ns [TB][DRIVER] Drove Request: 10
+#                  205ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  215ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225[TB][CHECKER] Test Passed: 10
+#                  225ns------------------------------------------------------
+#                  225ns [TB][DRIVER] Drove Request: 01
+#                  225ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  235ns [DUT][MAIN] Request: 01| Grant: 10
+#                  245ns [DUT][MAIN] Request: 01| Grant: 01
+#                  245[TB][CHECKER] Test Passed: 01
+#                  245ns------------------------------------------------------
+#                  245ns [TB][DRIVER] Drove Request: 10
+#                  245ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  255ns [DUT][MAIN] Request: 10| Grant: 01
+#                  265ns [DUT][MAIN] Request: 10| Grant: 10
+#                  265[TB][CHECKER] Test Passed: 10
+#                  265ns------------------------------------------------------
+#                  265ns [TB][DRIVER] Drove Request: 11
+#                  265ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  275ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285[TB][CHECKER] Test Failed: 10
+#                  285ns------------------------------------------------------
+#                  285ns [TB][DRIVER] Drove Request: 01
+#                  285ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  295ns [DUT][MAIN] Request: 01| Grant: 10
+#                  305ns [DUT][MAIN] Request: 01| Grant: 01
+#                  305[TB][CHECKER] Test Passed: 01
+#                  305ns------------------------------------------------------
+#                  305ns [TB][DRIVER] Drove Request: 11
+#                  305ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  315ns [DUT][MAIN] Request: 11| Grant: 01
+#                  325ns [DUT][MAIN] Request: 11| Grant: 10
+#                  325[TB][CHECKER] Test Failed: 10
+#                  325ns------------------------------------------------------
+#                  325ns [TB][DRIVER] Drove Request: 01
+#                  325ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  335ns [DUT][MAIN] Request: 01| Grant: 10
+#                  345ns [DUT][MAIN] Request: 01| Grant: 01
+#                  345[TB][CHECKER] Test Passed: 01
+#                  345ns------------------------------------------------------
+#                  345ns [TB][DRIVER] Drove Request: 11
+#                  345ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  355ns [DUT][MAIN] Request: 11| Grant: 01
+#                  365ns [DUT][MAIN] Request: 11| Grant: 10
+#                  365[TB][CHECKER] Test Failed: 10
+#                  365ns------------------------------------------------------
+#                  365ns [TB][DRIVER] Drove Request: 00
+#                  365ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  375ns [DUT][MAIN] Request: 00| Grant: 10
+#                  385ns [DUT][MAIN] Request: 00| Grant: 00
+#                  385[TB][CHECKER] Test Passed: 00
+#                  385ns------------------------------------------------------
+#                  385ns [TB][DRIVER] Drove Request: 10
+#                  385ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  395ns [DUT][MAIN] Request: 10| Grant: 00
+#                  405ns [DUT][MAIN] Request: 10| Grant: 10
+#                  405[TB][CHECKER] Test Passed: 10
+#                  405ns------------------------------------------------------
+#                  405ns [TB][DRIVER] Drove Request: 00
+#                  405ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  415ns [DUT][MAIN] Request: 00| Grant: 10
+#                  425ns [DUT][MAIN] Request: 00| Grant: 00
+#                  425[TB][CHECKER] Test Passed: 00
+#                  425ns------------------------------------------------------
+#                  425ns [TB][DRIVER] Drove Request: 11
+#                  425ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  435ns [DUT][MAIN] Request: 11| Grant: 00
+#                  445ns [DUT][MAIN] Request: 11| Grant: 10
+#                  445[TB][CHECKER] Test Failed: 10
+#                  445ns------------------------------------------------------
+#                  445ns [TB][DRIVER] Drove Request: 11
+#                  445ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  455ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465[TB][CHECKER] Test Failed: 10
+#                  465ns------------------------------------------------------
+#                  465ns [TB][DRIVER] Drove Request: 00
+#                  465ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  475ns [DUT][MAIN] Request: 00| Grant: 10
+#                  485ns [DUT][MAIN] Request: 00| Grant: 00
+#                  485[TB][CHECKER] Test Passed: 00
+#                  485ns------------------------------------------------------
+#                  485ns [TB][DRIVER] Drove Request: 01
+#                  485ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  495ns [DUT][MAIN] Request: 01| Grant: 00
+#                  505ns [DUT][MAIN] Request: 01| Grant: 01
+#                  505[TB][CHECKER] Test Passed: 01
+#                  505ns------------------------------------------------------
+#                  505ns [TB][DRIVER] Drove Request: 01
+#                  505ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  515ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525[TB][CHECKER] Test Passed: 01
+#                  525ns------------------------------------------------------
+#                  525ns [TB][DRIVER] Drove Request: 01
+#                  525ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  535ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545[TB][CHECKER] Test Passed: 01
+#                  545ns------------------------------------------------------
+#                  545ns [TB][DRIVER] Drove Request: 01
+#                  545ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  555ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565[TB][CHECKER] Test Passed: 01
+#                  565ns------------------------------------------------------
+#                  565ns [TB][DRIVER] Drove Request: 00
+#                  565ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  575ns [DUT][MAIN] Request: 00| Grant: 01
+#                  585ns [DUT][MAIN] Request: 00| Grant: 00
+#                  585[TB][CHECKER] Test Passed: 00
+#                  585ns------------------------------------------------------
+#                  585ns [TB][DRIVER] Drove Request: 10
+#                  585ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  595ns [DUT][MAIN] Request: 10| Grant: 00
+#                  605ns [DUT][MAIN] Request: 10| Grant: 10
+#                  605[TB][CHECKER] Test Passed: 10
+#                  605ns------------------------------------------------------
+#                  605ns [TB][DRIVER] Drove Request: 10
+#                  605ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  615ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625[TB][CHECKER] Test Passed: 10
+#                  625ns------------------------------------------------------
+#                  625ns [TB][DRIVER] Drove Request: 11
+#                  625ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  635ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645[TB][CHECKER] Test Failed: 10
+#                  645ns------------------------------------------------------
+#                  645ns [TB][DRIVER] Drove Request: 00
+#                  645ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  655ns [DUT][MAIN] Request: 00| Grant: 10
+#                  665ns [DUT][MAIN] Request: 00| Grant: 00
+#                  665[TB][CHECKER] Test Passed: 00
+#                  665ns------------------------------------------------------
+#                  665ns [TB][DRIVER] Drove Request: 01
+#                  665ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  675ns [DUT][MAIN] Request: 01| Grant: 00
+#                  685ns [DUT][MAIN] Request: 01| Grant: 01
+#                  685[TB][CHECKER] Test Passed: 01
+#                  685ns------------------------------------------------------
+#                  685ns [TB][DRIVER] Drove Request: 00
+#                  685ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  695ns [DUT][MAIN] Request: 00| Grant: 01
+#                  705ns [DUT][MAIN] Request: 00| Grant: 00
+#                  705[TB][CHECKER] Test Passed: 00
+#                  705ns------------------------------------------------------
+#                  705ns [TB][DRIVER] Drove Request: 01
+#                  705ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  715ns [DUT][MAIN] Request: 01| Grant: 00
+#                  725ns [DUT][MAIN] Request: 01| Grant: 01
+#                  725[TB][CHECKER] Test Passed: 01
+#                  725ns------------------------------------------------------
+#                  725ns [TB][DRIVER] Drove Request: 01
+#                  725ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  735ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745[TB][CHECKER] Test Passed: 01
+#                  745ns------------------------------------------------------
+#                  745ns [TB][DRIVER] Drove Request: 11
+#                  745ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  755ns [DUT][MAIN] Request: 11| Grant: 01
+#                  765ns [DUT][MAIN] Request: 11| Grant: 10
+#                  765[TB][CHECKER] Test Failed: 10
+#                  765ns------------------------------------------------------
+#                  765ns [TB][DRIVER] Drove Request: 11
+#                  765ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  775ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785[TB][CHECKER] Test Failed: 10
+#                  785ns------------------------------------------------------
+#                  785ns [TB][DRIVER] Drove Request: 00
+#                  785ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  795ns [DUT][MAIN] Request: 00| Grant: 10
+#                  805ns [DUT][MAIN] Request: 00| Grant: 00
+#                  805[TB][CHECKER] Test Passed: 00
+#                  805ns------------------------------------------------------
+#                  805ns [TB][DRIVER] Drove Request: 00
+#                  805ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  815ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825[TB][CHECKER] Test Passed: 00
+#                  825ns------------------------------------------------------
+#                  825ns [TB][DRIVER] Drove Request: 11
+#                  825ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  835ns [DUT][MAIN] Request: 11| Grant: 00
+#                  845ns [DUT][MAIN] Request: 11| Grant: 10
+#                  845[TB][CHECKER] Test Failed: 10
+#                  845ns------------------------------------------------------
+#                  845ns [TB][DRIVER] Drove Request: 01
+#                  845ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  855ns [DUT][MAIN] Request: 01| Grant: 10
+#                  865ns [DUT][MAIN] Request: 01| Grant: 01
+#                  865[TB][CHECKER] Test Passed: 01
+#                  865----------[TB][FINAL] TEST STATS---------
+#                  865TEST PASSED:          28
+#                  865TEST FAILED:          12
+#                  865TEST TOTAL:          40
+# ** Note: $finish    : test_arbiter.sv(49)
+#    Time: 8650 ns  Iteration: 1  Instance: /top/t1
+# 1
+# Break in Module test_arbiter at test_arbiter.sv line 49
+# Simulation Breakpoint: 1
+# Break in Module test_arbiter at test_arbiter.sv line 49
+# MACRO ./compile.do PAUSED at line 9
+add wave sim:/top/*
+add wave sim:/top/arbif/*
+restart -f
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+run -a
+#                    0ns [TB] Start Testing
+#                    5ns [DUT][RESET] Reseting the DUT: xx
+#                    5ns [TB][RESET] Asserting Reset: x
+#                   15ns [DUT][RESET] Reseting the DUT: 00
+#                   25ns [DUT][RESET] Reseting the DUT: 00
+#                   35ns [DUT][RESET] Reseting the DUT: 00
+#                   45ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [TB][RESET] Clearing Reset: 1
+#                   65ns [DUT][MAIN] Request: 00| Grant: 00
+#                   65ns------------------------------------------------------
+#                   65ns [TB][DRIVER] Drove Request: 11
+#                   65ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   75ns [DUT][MAIN] Request: 11| Grant: 00
+#                   85ns [DUT][MAIN] Request: 11| Grant: 10
+#                   85[TB][CHECKER] Test Failed: 10
+#                   85ns------------------------------------------------------
+#                   85ns [TB][DRIVER] Drove Request: 11
+#                   85ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   95ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105[TB][CHECKER] Test Failed: 10
+#                  105ns------------------------------------------------------
+#                  105ns [TB][DRIVER] Drove Request: 10
+#                  105ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  115ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125[TB][CHECKER] Test Passed: 10
+#                  125ns------------------------------------------------------
+#                  125ns [TB][DRIVER] Drove Request: 01
+#                  125ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  135ns [DUT][MAIN] Request: 01| Grant: 10
+#                  145ns [DUT][MAIN] Request: 01| Grant: 01
+#                  145[TB][CHECKER] Test Passed: 01
+#                  145ns------------------------------------------------------
+#                  145ns [TB][DRIVER] Drove Request: 01
+#                  145ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  155ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165[TB][CHECKER] Test Passed: 01
+#                  165ns------------------------------------------------------
+#                  165ns [TB][DRIVER] Drove Request: 00
+#                  165ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  175ns [DUT][MAIN] Request: 00| Grant: 01
+#                  185ns [DUT][MAIN] Request: 00| Grant: 00
+#                  185[TB][CHECKER] Test Passed: 00
+#                  185ns------------------------------------------------------
+#                  185ns [TB][DRIVER] Drove Request: 11
+#                  185ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  195ns [DUT][MAIN] Request: 11| Grant: 00
+#                  205ns [DUT][MAIN] Request: 11| Grant: 10
+#                  205[TB][CHECKER] Test Failed: 10
+#                  205ns------------------------------------------------------
+#                  205ns [TB][DRIVER] Drove Request: 10
+#                  205ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  215ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225[TB][CHECKER] Test Passed: 10
+#                  225ns------------------------------------------------------
+#                  225ns [TB][DRIVER] Drove Request: 01
+#                  225ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  235ns [DUT][MAIN] Request: 01| Grant: 10
+#                  245ns [DUT][MAIN] Request: 01| Grant: 01
+#                  245[TB][CHECKER] Test Passed: 01
+#                  245ns------------------------------------------------------
+#                  245ns [TB][DRIVER] Drove Request: 10
+#                  245ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  255ns [DUT][MAIN] Request: 10| Grant: 01
+#                  265ns [DUT][MAIN] Request: 10| Grant: 10
+#                  265[TB][CHECKER] Test Passed: 10
+#                  265ns------------------------------------------------------
+#                  265ns [TB][DRIVER] Drove Request: 11
+#                  265ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  275ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285[TB][CHECKER] Test Failed: 10
+#                  285ns------------------------------------------------------
+#                  285ns [TB][DRIVER] Drove Request: 01
+#                  285ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  295ns [DUT][MAIN] Request: 01| Grant: 10
+#                  305ns [DUT][MAIN] Request: 01| Grant: 01
+#                  305[TB][CHECKER] Test Passed: 01
+#                  305ns------------------------------------------------------
+#                  305ns [TB][DRIVER] Drove Request: 11
+#                  305ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  315ns [DUT][MAIN] Request: 11| Grant: 01
+#                  325ns [DUT][MAIN] Request: 11| Grant: 10
+#                  325[TB][CHECKER] Test Failed: 10
+#                  325ns------------------------------------------------------
+#                  325ns [TB][DRIVER] Drove Request: 01
+#                  325ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  335ns [DUT][MAIN] Request: 01| Grant: 10
+#                  345ns [DUT][MAIN] Request: 01| Grant: 01
+#                  345[TB][CHECKER] Test Passed: 01
+#                  345ns------------------------------------------------------
+#                  345ns [TB][DRIVER] Drove Request: 11
+#                  345ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  355ns [DUT][MAIN] Request: 11| Grant: 01
+#                  365ns [DUT][MAIN] Request: 11| Grant: 10
+#                  365[TB][CHECKER] Test Failed: 10
+#                  365ns------------------------------------------------------
+#                  365ns [TB][DRIVER] Drove Request: 00
+#                  365ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  375ns [DUT][MAIN] Request: 00| Grant: 10
+#                  385ns [DUT][MAIN] Request: 00| Grant: 00
+#                  385[TB][CHECKER] Test Passed: 00
+#                  385ns------------------------------------------------------
+#                  385ns [TB][DRIVER] Drove Request: 10
+#                  385ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  395ns [DUT][MAIN] Request: 10| Grant: 00
+#                  405ns [DUT][MAIN] Request: 10| Grant: 10
+#                  405[TB][CHECKER] Test Passed: 10
+#                  405ns------------------------------------------------------
+#                  405ns [TB][DRIVER] Drove Request: 00
+#                  405ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  415ns [DUT][MAIN] Request: 00| Grant: 10
+#                  425ns [DUT][MAIN] Request: 00| Grant: 00
+#                  425[TB][CHECKER] Test Passed: 00
+#                  425ns------------------------------------------------------
+#                  425ns [TB][DRIVER] Drove Request: 11
+#                  425ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  435ns [DUT][MAIN] Request: 11| Grant: 00
+#                  445ns [DUT][MAIN] Request: 11| Grant: 10
+#                  445[TB][CHECKER] Test Failed: 10
+#                  445ns------------------------------------------------------
+#                  445ns [TB][DRIVER] Drove Request: 11
+#                  445ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  455ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465[TB][CHECKER] Test Failed: 10
+#                  465ns------------------------------------------------------
+#                  465ns [TB][DRIVER] Drove Request: 00
+#                  465ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  475ns [DUT][MAIN] Request: 00| Grant: 10
+#                  485ns [DUT][MAIN] Request: 00| Grant: 00
+#                  485[TB][CHECKER] Test Passed: 00
+#                  485ns------------------------------------------------------
+#                  485ns [TB][DRIVER] Drove Request: 01
+#                  485ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  495ns [DUT][MAIN] Request: 01| Grant: 00
+#                  505ns [DUT][MAIN] Request: 01| Grant: 01
+#                  505[TB][CHECKER] Test Passed: 01
+#                  505ns------------------------------------------------------
+#                  505ns [TB][DRIVER] Drove Request: 01
+#                  505ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  515ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525[TB][CHECKER] Test Passed: 01
+#                  525ns------------------------------------------------------
+#                  525ns [TB][DRIVER] Drove Request: 01
+#                  525ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  535ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545[TB][CHECKER] Test Passed: 01
+#                  545ns------------------------------------------------------
+#                  545ns [TB][DRIVER] Drove Request: 01
+#                  545ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  555ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565[TB][CHECKER] Test Passed: 01
+#                  565ns------------------------------------------------------
+#                  565ns [TB][DRIVER] Drove Request: 00
+#                  565ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  575ns [DUT][MAIN] Request: 00| Grant: 01
+#                  585ns [DUT][MAIN] Request: 00| Grant: 00
+#                  585[TB][CHECKER] Test Passed: 00
+#                  585ns------------------------------------------------------
+#                  585ns [TB][DRIVER] Drove Request: 10
+#                  585ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  595ns [DUT][MAIN] Request: 10| Grant: 00
+#                  605ns [DUT][MAIN] Request: 10| Grant: 10
+#                  605[TB][CHECKER] Test Passed: 10
+#                  605ns------------------------------------------------------
+#                  605ns [TB][DRIVER] Drove Request: 10
+#                  605ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  615ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625[TB][CHECKER] Test Passed: 10
+#                  625ns------------------------------------------------------
+#                  625ns [TB][DRIVER] Drove Request: 11
+#                  625ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  635ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645[TB][CHECKER] Test Failed: 10
+#                  645ns------------------------------------------------------
+#                  645ns [TB][DRIVER] Drove Request: 00
+#                  645ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  655ns [DUT][MAIN] Request: 00| Grant: 10
+#                  665ns [DUT][MAIN] Request: 00| Grant: 00
+#                  665[TB][CHECKER] Test Passed: 00
+#                  665ns------------------------------------------------------
+#                  665ns [TB][DRIVER] Drove Request: 01
+#                  665ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  675ns [DUT][MAIN] Request: 01| Grant: 00
+#                  685ns [DUT][MAIN] Request: 01| Grant: 01
+#                  685[TB][CHECKER] Test Passed: 01
+#                  685ns------------------------------------------------------
+#                  685ns [TB][DRIVER] Drove Request: 00
+#                  685ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  695ns [DUT][MAIN] Request: 00| Grant: 01
+#                  705ns [DUT][MAIN] Request: 00| Grant: 00
+#                  705[TB][CHECKER] Test Passed: 00
+#                  705ns------------------------------------------------------
+#                  705ns [TB][DRIVER] Drove Request: 01
+#                  705ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  715ns [DUT][MAIN] Request: 01| Grant: 00
+#                  725ns [DUT][MAIN] Request: 01| Grant: 01
+#                  725[TB][CHECKER] Test Passed: 01
+#                  725ns------------------------------------------------------
+#                  725ns [TB][DRIVER] Drove Request: 01
+#                  725ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  735ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745[TB][CHECKER] Test Passed: 01
+#                  745ns------------------------------------------------------
+#                  745ns [TB][DRIVER] Drove Request: 11
+#                  745ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  755ns [DUT][MAIN] Request: 11| Grant: 01
+#                  765ns [DUT][MAIN] Request: 11| Grant: 10
+#                  765[TB][CHECKER] Test Failed: 10
+#                  765ns------------------------------------------------------
+#                  765ns [TB][DRIVER] Drove Request: 11
+#                  765ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  775ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785[TB][CHECKER] Test Failed: 10
+#                  785ns------------------------------------------------------
+#                  785ns [TB][DRIVER] Drove Request: 00
+#                  785ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  795ns [DUT][MAIN] Request: 00| Grant: 10
+#                  805ns [DUT][MAIN] Request: 00| Grant: 00
+#                  805[TB][CHECKER] Test Passed: 00
+#                  805ns------------------------------------------------------
+#                  805ns [TB][DRIVER] Drove Request: 00
+#                  805ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  815ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825[TB][CHECKER] Test Passed: 00
+#                  825ns------------------------------------------------------
+#                  825ns [TB][DRIVER] Drove Request: 11
+#                  825ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  835ns [DUT][MAIN] Request: 11| Grant: 00
+#                  845ns [DUT][MAIN] Request: 11| Grant: 10
+#                  845[TB][CHECKER] Test Failed: 10
+#                  845ns------------------------------------------------------
+#                  845ns [TB][DRIVER] Drove Request: 01
+#                  845ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  855ns [DUT][MAIN] Request: 01| Grant: 10
+#                  865ns [DUT][MAIN] Request: 01| Grant: 01
+#                  865[TB][CHECKER] Test Passed: 01
+#                  865----------[TB][FINAL] TEST STATS---------
+#                  865TEST PASSED:          28
+#                  865TEST FAILED:          12
+#                  865TEST TOTAL:          40
+# ** Note: $finish    : test_arbiter.sv(49)
+#    Time: 8650 ns  Iteration: 1  Instance: /top/t1
+# 1
+# Break in Module test_arbiter at test_arbiter.sv line 49
+vlog *.sv
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# -- Compiling module test_arbiter
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+restart -f
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+run -a
+#                    0ns [TB] Start Testing
+#                    5ns [DUT][RESET] Reseting the DUT: xx
+#                    5ns [TB][RESET] Asserting Reset: x
+#                   15ns [DUT][RESET] Reseting the DUT: 00
+#                   25ns [DUT][RESET] Reseting the DUT: 00
+#                   35ns [DUT][RESET] Reseting the DUT: 00
+#                   45ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [TB][RESET] Clearing Reset: 1
+#                   65ns [DUT][MAIN] Request: 00| Grant: 00
+#                   65ns------------------------------------------------------
+#                   65ns [TB][DRIVER] Drove Request: 11
+#                   65ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   75ns [DUT][MAIN] Request: 11| Grant: 00
+#                   75[TB][CHECKER] Test Failed: 00
+#                   75ns------------------------------------------------------
+#                   75ns [TB][DRIVER] Drove Request: 11
+#                   75ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   85ns [DUT][MAIN] Request: 11| Grant: 10
+#                   85[TB][CHECKER] Test Failed: 10
+#                   85ns------------------------------------------------------
+#                   85ns [TB][DRIVER] Drove Request: 10
+#                   85ns [TB][GOLD REF] Request: 10| Grant: 10
+#                   95ns [DUT][MAIN] Request: 10| Grant: 10
+#                   95[TB][CHECKER] Test Passed: 10
+#                   95ns------------------------------------------------------
+#                   95ns [TB][DRIVER] Drove Request: 01
+#                   95ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  105ns [DUT][MAIN] Request: 01| Grant: 10
+#                  105[TB][CHECKER] Test Failed: 10
+#                  105ns------------------------------------------------------
+#                  105ns [TB][DRIVER] Drove Request: 01
+#                  105ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  115ns [DUT][MAIN] Request: 01| Grant: 01
+#                  115[TB][CHECKER] Test Passed: 01
+#                  115ns------------------------------------------------------
+#                  115ns [TB][DRIVER] Drove Request: 00
+#                  115ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  125ns [DUT][MAIN] Request: 00| Grant: 01
+#                  125[TB][CHECKER] Test Failed: 01
+#                  125ns------------------------------------------------------
+#                  125ns [TB][DRIVER] Drove Request: 11
+#                  125ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  135ns [DUT][MAIN] Request: 11| Grant: 00
+#                  135[TB][CHECKER] Test Failed: 00
+#                  135ns------------------------------------------------------
+#                  135ns [TB][DRIVER] Drove Request: 10
+#                  135ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  145ns [DUT][MAIN] Request: 10| Grant: 10
+#                  145[TB][CHECKER] Test Passed: 10
+#                  145ns------------------------------------------------------
+#                  145ns [TB][DRIVER] Drove Request: 01
+#                  145ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  155ns [DUT][MAIN] Request: 01| Grant: 10
+#                  155[TB][CHECKER] Test Failed: 10
+#                  155ns------------------------------------------------------
+#                  155ns [TB][DRIVER] Drove Request: 10
+#                  155ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  165ns [DUT][MAIN] Request: 10| Grant: 01
+#                  165[TB][CHECKER] Test Failed: 01
+#                  165ns------------------------------------------------------
+#                  165ns [TB][DRIVER] Drove Request: 11
+#                  165ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  175ns [DUT][MAIN] Request: 11| Grant: 10
+#                  175[TB][CHECKER] Test Failed: 10
+#                  175ns------------------------------------------------------
+#                  175ns [TB][DRIVER] Drove Request: 01
+#                  175ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  185ns [DUT][MAIN] Request: 01| Grant: 10
+#                  185[TB][CHECKER] Test Failed: 10
+#                  185ns------------------------------------------------------
+#                  185ns [TB][DRIVER] Drove Request: 11
+#                  185ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  195ns [DUT][MAIN] Request: 11| Grant: 01
+#                  195[TB][CHECKER] Test Failed: 01
+#                  195ns------------------------------------------------------
+#                  195ns [TB][DRIVER] Drove Request: 01
+#                  195ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  205ns [DUT][MAIN] Request: 01| Grant: 10
+#                  205[TB][CHECKER] Test Failed: 10
+#                  205ns------------------------------------------------------
+#                  205ns [TB][DRIVER] Drove Request: 11
+#                  205ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  215ns [DUT][MAIN] Request: 11| Grant: 01
+#                  215[TB][CHECKER] Test Failed: 01
+#                  215ns------------------------------------------------------
+#                  215ns [TB][DRIVER] Drove Request: 00
+#                  215ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  225ns [DUT][MAIN] Request: 00| Grant: 10
+#                  225[TB][CHECKER] Test Failed: 10
+#                  225ns------------------------------------------------------
+#                  225ns [TB][DRIVER] Drove Request: 10
+#                  225ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  235ns [DUT][MAIN] Request: 10| Grant: 00
+#                  235[TB][CHECKER] Test Failed: 00
+#                  235ns------------------------------------------------------
+#                  235ns [TB][DRIVER] Drove Request: 00
+#                  235ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  245ns [DUT][MAIN] Request: 00| Grant: 10
+#                  245[TB][CHECKER] Test Failed: 10
+#                  245ns------------------------------------------------------
+#                  245ns [TB][DRIVER] Drove Request: 11
+#                  245ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  255ns [DUT][MAIN] Request: 11| Grant: 00
+#                  255[TB][CHECKER] Test Failed: 00
+#                  255ns------------------------------------------------------
+#                  255ns [TB][DRIVER] Drove Request: 11
+#                  255ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  265ns [DUT][MAIN] Request: 11| Grant: 10
+#                  265[TB][CHECKER] Test Failed: 10
+#                  265ns------------------------------------------------------
+#                  265ns [TB][DRIVER] Drove Request: 00
+#                  265ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  275ns [DUT][MAIN] Request: 00| Grant: 10
+#                  275[TB][CHECKER] Test Failed: 10
+#                  275ns------------------------------------------------------
+#                  275ns [TB][DRIVER] Drove Request: 01
+#                  275ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  285ns [DUT][MAIN] Request: 01| Grant: 00
+#                  285[TB][CHECKER] Test Failed: 00
+#                  285ns------------------------------------------------------
+#                  285ns [TB][DRIVER] Drove Request: 01
+#                  285ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  295ns [DUT][MAIN] Request: 01| Grant: 01
+#                  295[TB][CHECKER] Test Passed: 01
+#                  295ns------------------------------------------------------
+#                  295ns [TB][DRIVER] Drove Request: 01
+#                  295ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  305ns [DUT][MAIN] Request: 01| Grant: 01
+#                  305[TB][CHECKER] Test Passed: 01
+#                  305ns------------------------------------------------------
+#                  305ns [TB][DRIVER] Drove Request: 01
+#                  305ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  315ns [DUT][MAIN] Request: 01| Grant: 01
+#                  315[TB][CHECKER] Test Passed: 01
+#                  315ns------------------------------------------------------
+#                  315ns [TB][DRIVER] Drove Request: 00
+#                  315ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  325ns [DUT][MAIN] Request: 00| Grant: 01
+#                  325[TB][CHECKER] Test Failed: 01
+#                  325ns------------------------------------------------------
+#                  325ns [TB][DRIVER] Drove Request: 10
+#                  325ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  335ns [DUT][MAIN] Request: 10| Grant: 00
+#                  335[TB][CHECKER] Test Failed: 00
+#                  335ns------------------------------------------------------
+#                  335ns [TB][DRIVER] Drove Request: 10
+#                  335ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  345ns [DUT][MAIN] Request: 10| Grant: 10
+#                  345[TB][CHECKER] Test Passed: 10
+#                  345ns------------------------------------------------------
+#                  345ns [TB][DRIVER] Drove Request: 11
+#                  345ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  355ns [DUT][MAIN] Request: 11| Grant: 10
+#                  355[TB][CHECKER] Test Failed: 10
+#                  355ns------------------------------------------------------
+#                  355ns [TB][DRIVER] Drove Request: 00
+#                  355ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  365ns [DUT][MAIN] Request: 00| Grant: 10
+#                  365[TB][CHECKER] Test Failed: 10
+#                  365ns------------------------------------------------------
+#                  365ns [TB][DRIVER] Drove Request: 01
+#                  365ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  375ns [DUT][MAIN] Request: 01| Grant: 00
+#                  375[TB][CHECKER] Test Failed: 00
+#                  375ns------------------------------------------------------
+#                  375ns [TB][DRIVER] Drove Request: 00
+#                  375ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  385ns [DUT][MAIN] Request: 00| Grant: 01
+#                  385[TB][CHECKER] Test Failed: 01
+#                  385ns------------------------------------------------------
+#                  385ns [TB][DRIVER] Drove Request: 01
+#                  385ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  395ns [DUT][MAIN] Request: 01| Grant: 00
+#                  395[TB][CHECKER] Test Failed: 00
+#                  395ns------------------------------------------------------
+#                  395ns [TB][DRIVER] Drove Request: 01
+#                  395ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  405ns [DUT][MAIN] Request: 01| Grant: 01
+#                  405[TB][CHECKER] Test Passed: 01
+#                  405ns------------------------------------------------------
+#                  405ns [TB][DRIVER] Drove Request: 11
+#                  405ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  415ns [DUT][MAIN] Request: 11| Grant: 01
+#                  415[TB][CHECKER] Test Failed: 01
+#                  415ns------------------------------------------------------
+#                  415ns [TB][DRIVER] Drove Request: 11
+#                  415ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  425ns [DUT][MAIN] Request: 11| Grant: 10
+#                  425[TB][CHECKER] Test Failed: 10
+#                  425ns------------------------------------------------------
+#                  425ns [TB][DRIVER] Drove Request: 00
+#                  425ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  435ns [DUT][MAIN] Request: 00| Grant: 10
+#                  435[TB][CHECKER] Test Failed: 10
+#                  435ns------------------------------------------------------
+#                  435ns [TB][DRIVER] Drove Request: 00
+#                  435ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  445ns [DUT][MAIN] Request: 00| Grant: 00
+#                  445[TB][CHECKER] Test Passed: 00
+#                  445ns------------------------------------------------------
+#                  445ns [TB][DRIVER] Drove Request: 11
+#                  445ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  455ns [DUT][MAIN] Request: 11| Grant: 00
+#                  455[TB][CHECKER] Test Failed: 00
+#                  455ns------------------------------------------------------
+#                  455ns [TB][DRIVER] Drove Request: 01
+#                  455ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  465ns [DUT][MAIN] Request: 01| Grant: 10
+#                  465[TB][CHECKER] Test Failed: 10
+#                  465----------[TB][FINAL] TEST STATS---------
+#                  465TEST PASSED:           9
+#                  465TEST FAILED:          31
+#                  465TEST TOTAL:          40
+# ** Note: $finish    : test_arbiter.sv(49)
+#    Time: 4650 ns  Iteration: 1  Instance: /top/t1
+# 1
+# Break in Module test_arbiter at test_arbiter.sv line 49
+restart -f
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8637) top.sv(15): A modport ('DUT') should not be used in a hierarchical path.
+#         Region: /top
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+run -a
+#                    0ns [TB] Start Testing
+#                    5ns [DUT][RESET] Reseting the DUT: xx
+#                    5ns [TB][RESET] Asserting Reset: x
+#                   15ns [DUT][RESET] Reseting the DUT: 00
+#                   25ns [DUT][RESET] Reseting the DUT: 00
+#                   35ns [DUT][RESET] Reseting the DUT: 00
+#                   45ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [TB][RESET] Clearing Reset: 1
+#                   65ns [DUT][MAIN] Request: 00| Grant: 00
+#                   65ns------------------------------------------------------
+#                   65ns [TB][DRIVER] Drove Request: 11
+#                   65ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   75ns [DUT][MAIN] Request: 11| Grant: 00
+#                   75[TB][CHECKER] Test Failed: 00
+#                   75ns------------------------------------------------------
+#                   75ns [TB][DRIVER] Drove Request: 11
+#                   75ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   85ns [DUT][MAIN] Request: 11| Grant: 10
+#                   85[TB][CHECKER] Test Failed: 10
+#                   85ns------------------------------------------------------
+#                   85ns [TB][DRIVER] Drove Request: 10
+#                   85ns [TB][GOLD REF] Request: 10| Grant: 10
+#                   95ns [DUT][MAIN] Request: 10| Grant: 10
+#                   95[TB][CHECKER] Test Passed: 10
+#                   95ns------------------------------------------------------
+#                   95ns [TB][DRIVER] Drove Request: 01
+#                   95ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  105ns [DUT][MAIN] Request: 01| Grant: 10
+#                  105[TB][CHECKER] Test Failed: 10
+#                  105ns------------------------------------------------------
+#                  105ns [TB][DRIVER] Drove Request: 01
+#                  105ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  115ns [DUT][MAIN] Request: 01| Grant: 01
+#                  115[TB][CHECKER] Test Passed: 01
+#                  115ns------------------------------------------------------
+#                  115ns [TB][DRIVER] Drove Request: 00
+#                  115ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  125ns [DUT][MAIN] Request: 00| Grant: 01
+#                  125[TB][CHECKER] Test Failed: 01
+#                  125ns------------------------------------------------------
+#                  125ns [TB][DRIVER] Drove Request: 11
+#                  125ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  135ns [DUT][MAIN] Request: 11| Grant: 00
+#                  135[TB][CHECKER] Test Failed: 00
+#                  135ns------------------------------------------------------
+#                  135ns [TB][DRIVER] Drove Request: 10
+#                  135ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  145ns [DUT][MAIN] Request: 10| Grant: 10
+#                  145[TB][CHECKER] Test Passed: 10
+#                  145ns------------------------------------------------------
+#                  145ns [TB][DRIVER] Drove Request: 01
+#                  145ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  155ns [DUT][MAIN] Request: 01| Grant: 10
+#                  155[TB][CHECKER] Test Failed: 10
+#                  155ns------------------------------------------------------
+#                  155ns [TB][DRIVER] Drove Request: 10
+#                  155ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  165ns [DUT][MAIN] Request: 10| Grant: 01
+#                  165[TB][CHECKER] Test Failed: 01
+#                  165ns------------------------------------------------------
+#                  165ns [TB][DRIVER] Drove Request: 11
+#                  165ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  175ns [DUT][MAIN] Request: 11| Grant: 10
+#                  175[TB][CHECKER] Test Failed: 10
+#                  175ns------------------------------------------------------
+#                  175ns [TB][DRIVER] Drove Request: 01
+#                  175ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  185ns [DUT][MAIN] Request: 01| Grant: 10
+#                  185[TB][CHECKER] Test Failed: 10
+#                  185ns------------------------------------------------------
+#                  185ns [TB][DRIVER] Drove Request: 11
+#                  185ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  195ns [DUT][MAIN] Request: 11| Grant: 01
+#                  195[TB][CHECKER] Test Failed: 01
+#                  195ns------------------------------------------------------
+#                  195ns [TB][DRIVER] Drove Request: 01
+#                  195ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  205ns [DUT][MAIN] Request: 01| Grant: 10
+#                  205[TB][CHECKER] Test Failed: 10
+#                  205ns------------------------------------------------------
+#                  205ns [TB][DRIVER] Drove Request: 11
+#                  205ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  215ns [DUT][MAIN] Request: 11| Grant: 01
+#                  215[TB][CHECKER] Test Failed: 01
+#                  215ns------------------------------------------------------
+#                  215ns [TB][DRIVER] Drove Request: 00
+#                  215ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  225ns [DUT][MAIN] Request: 00| Grant: 10
+#                  225[TB][CHECKER] Test Failed: 10
+#                  225ns------------------------------------------------------
+#                  225ns [TB][DRIVER] Drove Request: 10
+#                  225ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  235ns [DUT][MAIN] Request: 10| Grant: 00
+#                  235[TB][CHECKER] Test Failed: 00
+#                  235ns------------------------------------------------------
+#                  235ns [TB][DRIVER] Drove Request: 00
+#                  235ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  245ns [DUT][MAIN] Request: 00| Grant: 10
+#                  245[TB][CHECKER] Test Failed: 10
+#                  245ns------------------------------------------------------
+#                  245ns [TB][DRIVER] Drove Request: 11
+#                  245ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  255ns [DUT][MAIN] Request: 11| Grant: 00
+#                  255[TB][CHECKER] Test Failed: 00
+#                  255ns------------------------------------------------------
+#                  255ns [TB][DRIVER] Drove Request: 11
+#                  255ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  265ns [DUT][MAIN] Request: 11| Grant: 10
+#                  265[TB][CHECKER] Test Failed: 10
+#                  265ns------------------------------------------------------
+#                  265ns [TB][DRIVER] Drove Request: 00
+#                  265ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  275ns [DUT][MAIN] Request: 00| Grant: 10
+#                  275[TB][CHECKER] Test Failed: 10
+#                  275ns------------------------------------------------------
+#                  275ns [TB][DRIVER] Drove Request: 01
+#                  275ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  285ns [DUT][MAIN] Request: 01| Grant: 00
+#                  285[TB][CHECKER] Test Failed: 00
+#                  285ns------------------------------------------------------
+#                  285ns [TB][DRIVER] Drove Request: 01
+#                  285ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  295ns [DUT][MAIN] Request: 01| Grant: 01
+#                  295[TB][CHECKER] Test Passed: 01
+#                  295ns------------------------------------------------------
+#                  295ns [TB][DRIVER] Drove Request: 01
+#                  295ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  305ns [DUT][MAIN] Request: 01| Grant: 01
+#                  305[TB][CHECKER] Test Passed: 01
+#                  305ns------------------------------------------------------
+#                  305ns [TB][DRIVER] Drove Request: 01
+#                  305ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  315ns [DUT][MAIN] Request: 01| Grant: 01
+#                  315[TB][CHECKER] Test Passed: 01
+#                  315ns------------------------------------------------------
+#                  315ns [TB][DRIVER] Drove Request: 00
+#                  315ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  325ns [DUT][MAIN] Request: 00| Grant: 01
+#                  325[TB][CHECKER] Test Failed: 01
+#                  325ns------------------------------------------------------
+#                  325ns [TB][DRIVER] Drove Request: 10
+#                  325ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  335ns [DUT][MAIN] Request: 10| Grant: 00
+#                  335[TB][CHECKER] Test Failed: 00
+#                  335ns------------------------------------------------------
+#                  335ns [TB][DRIVER] Drove Request: 10
+#                  335ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  345ns [DUT][MAIN] Request: 10| Grant: 10
+#                  345[TB][CHECKER] Test Passed: 10
+#                  345ns------------------------------------------------------
+#                  345ns [TB][DRIVER] Drove Request: 11
+#                  345ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  355ns [DUT][MAIN] Request: 11| Grant: 10
+#                  355[TB][CHECKER] Test Failed: 10
+#                  355ns------------------------------------------------------
+#                  355ns [TB][DRIVER] Drove Request: 00
+#                  355ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  365ns [DUT][MAIN] Request: 00| Grant: 10
+#                  365[TB][CHECKER] Test Failed: 10
+#                  365ns------------------------------------------------------
+#                  365ns [TB][DRIVER] Drove Request: 01
+#                  365ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  375ns [DUT][MAIN] Request: 01| Grant: 00
+#                  375[TB][CHECKER] Test Failed: 00
+#                  375ns------------------------------------------------------
+#                  375ns [TB][DRIVER] Drove Request: 00
+#                  375ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  385ns [DUT][MAIN] Request: 00| Grant: 01
+#                  385[TB][CHECKER] Test Failed: 01
+#                  385ns------------------------------------------------------
+#                  385ns [TB][DRIVER] Drove Request: 01
+#                  385ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  395ns [DUT][MAIN] Request: 01| Grant: 00
+#                  395[TB][CHECKER] Test Failed: 00
+#                  395ns------------------------------------------------------
+#                  395ns [TB][DRIVER] Drove Request: 01
+#                  395ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  405ns [DUT][MAIN] Request: 01| Grant: 01
+#                  405[TB][CHECKER] Test Passed: 01
+#                  405ns------------------------------------------------------
+#                  405ns [TB][DRIVER] Drove Request: 11
+#                  405ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  415ns [DUT][MAIN] Request: 11| Grant: 01
+#                  415[TB][CHECKER] Test Failed: 01
+#                  415ns------------------------------------------------------
+#                  415ns [TB][DRIVER] Drove Request: 11
+#                  415ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  425ns [DUT][MAIN] Request: 11| Grant: 10
+#                  425[TB][CHECKER] Test Failed: 10
+#                  425ns------------------------------------------------------
+#                  425ns [TB][DRIVER] Drove Request: 00
+#                  425ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  435ns [DUT][MAIN] Request: 00| Grant: 10
+#                  435[TB][CHECKER] Test Failed: 10
+#                  435ns------------------------------------------------------
+#                  435ns [TB][DRIVER] Drove Request: 00
+#                  435ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  445ns [DUT][MAIN] Request: 00| Grant: 00
+#                  445[TB][CHECKER] Test Passed: 00
+#                  445ns------------------------------------------------------
+#                  445ns [TB][DRIVER] Drove Request: 11
+#                  445ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  455ns [DUT][MAIN] Request: 11| Grant: 00
+#                  455[TB][CHECKER] Test Failed: 00
+#                  455ns------------------------------------------------------
+#                  455ns [TB][DRIVER] Drove Request: 01
+#                  455ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  465ns [DUT][MAIN] Request: 01| Grant: 10
+#                  465[TB][CHECKER] Test Failed: 10
+#                  465----------[TB][FINAL] TEST STATS---------
+#                  465TEST PASSED:           9
+#                  465TEST FAILED:          31
+#                  465TEST TOTAL:          40
+# ** Note: $finish    : test_arbiter.sv(49)
+#    Time: 4650 ns  Iteration: 1  Instance: /top/t1
+# 1
+# Break in Module test_arbiter at test_arbiter.sv line 49
+restart -f
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+run -a
+#                    0ns [TB] Start Testing
+#                    5ns [DUT][RESET] Reseting the DUT: xx
+#                    5ns [TB][RESET] Asserting Reset: x
+#                   15ns [DUT][RESET] Reseting the DUT: 00
+#                   25ns [DUT][RESET] Reseting the DUT: 00
+#                   35ns [DUT][RESET] Reseting the DUT: 00
+#                   45ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [TB][RESET] Clearing Reset: 1
+#                   65ns [DUT][MAIN] Request: 00| Grant: 00
+#                   65ns------------------------------------------------------
+#                   65ns [TB][DRIVER] Drove Request: 11
+#                   65ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   75ns [DUT][MAIN] Request: 11| Grant: 00
+#                   75[TB][CHECKER] Test Failed: 00
+#                   75ns------------------------------------------------------
+#                   75ns [TB][DRIVER] Drove Request: 11
+#                   75ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   85ns [DUT][MAIN] Request: 11| Grant: 10
+#                   85[TB][CHECKER] Test Failed: 10
+#                   85ns------------------------------------------------------
+#                   85ns [TB][DRIVER] Drove Request: 10
+#                   85ns [TB][GOLD REF] Request: 10| Grant: 10
+#                   95ns [DUT][MAIN] Request: 10| Grant: 10
+#                   95[TB][CHECKER] Test Passed: 10
+#                   95ns------------------------------------------------------
+#                   95ns [TB][DRIVER] Drove Request: 01
+#                   95ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  105ns [DUT][MAIN] Request: 01| Grant: 10
+#                  105[TB][CHECKER] Test Failed: 10
+#                  105ns------------------------------------------------------
+#                  105ns [TB][DRIVER] Drove Request: 01
+#                  105ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  115ns [DUT][MAIN] Request: 01| Grant: 01
+#                  115[TB][CHECKER] Test Passed: 01
+#                  115ns------------------------------------------------------
+#                  115ns [TB][DRIVER] Drove Request: 00
+#                  115ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  125ns [DUT][MAIN] Request: 00| Grant: 01
+#                  125[TB][CHECKER] Test Failed: 01
+#                  125ns------------------------------------------------------
+#                  125ns [TB][DRIVER] Drove Request: 11
+#                  125ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  135ns [DUT][MAIN] Request: 11| Grant: 00
+#                  135[TB][CHECKER] Test Failed: 00
+#                  135ns------------------------------------------------------
+#                  135ns [TB][DRIVER] Drove Request: 10
+#                  135ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  145ns [DUT][MAIN] Request: 10| Grant: 10
+#                  145[TB][CHECKER] Test Passed: 10
+#                  145ns------------------------------------------------------
+#                  145ns [TB][DRIVER] Drove Request: 01
+#                  145ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  155ns [DUT][MAIN] Request: 01| Grant: 10
+#                  155[TB][CHECKER] Test Failed: 10
+#                  155ns------------------------------------------------------
+#                  155ns [TB][DRIVER] Drove Request: 10
+#                  155ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  165ns [DUT][MAIN] Request: 10| Grant: 01
+#                  165[TB][CHECKER] Test Failed: 01
+#                  165ns------------------------------------------------------
+#                  165ns [TB][DRIVER] Drove Request: 11
+#                  165ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  175ns [DUT][MAIN] Request: 11| Grant: 10
+#                  175[TB][CHECKER] Test Failed: 10
+#                  175ns------------------------------------------------------
+#                  175ns [TB][DRIVER] Drove Request: 01
+#                  175ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  185ns [DUT][MAIN] Request: 01| Grant: 10
+#                  185[TB][CHECKER] Test Failed: 10
+#                  185ns------------------------------------------------------
+#                  185ns [TB][DRIVER] Drove Request: 11
+#                  185ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  195ns [DUT][MAIN] Request: 11| Grant: 01
+#                  195[TB][CHECKER] Test Failed: 01
+#                  195ns------------------------------------------------------
+#                  195ns [TB][DRIVER] Drove Request: 01
+#                  195ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  205ns [DUT][MAIN] Request: 01| Grant: 10
+#                  205[TB][CHECKER] Test Failed: 10
+#                  205ns------------------------------------------------------
+#                  205ns [TB][DRIVER] Drove Request: 11
+#                  205ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  215ns [DUT][MAIN] Request: 11| Grant: 01
+#                  215[TB][CHECKER] Test Failed: 01
+#                  215ns------------------------------------------------------
+#                  215ns [TB][DRIVER] Drove Request: 00
+#                  215ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  225ns [DUT][MAIN] Request: 00| Grant: 10
+#                  225[TB][CHECKER] Test Failed: 10
+#                  225ns------------------------------------------------------
+#                  225ns [TB][DRIVER] Drove Request: 10
+#                  225ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  235ns [DUT][MAIN] Request: 10| Grant: 00
+#                  235[TB][CHECKER] Test Failed: 00
+#                  235ns------------------------------------------------------
+#                  235ns [TB][DRIVER] Drove Request: 00
+#                  235ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  245ns [DUT][MAIN] Request: 00| Grant: 10
+#                  245[TB][CHECKER] Test Failed: 10
+#                  245ns------------------------------------------------------
+#                  245ns [TB][DRIVER] Drove Request: 11
+#                  245ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  255ns [DUT][MAIN] Request: 11| Grant: 00
+#                  255[TB][CHECKER] Test Failed: 00
+#                  255ns------------------------------------------------------
+#                  255ns [TB][DRIVER] Drove Request: 11
+#                  255ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  265ns [DUT][MAIN] Request: 11| Grant: 10
+#                  265[TB][CHECKER] Test Failed: 10
+#                  265ns------------------------------------------------------
+#                  265ns [TB][DRIVER] Drove Request: 00
+#                  265ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  275ns [DUT][MAIN] Request: 00| Grant: 10
+#                  275[TB][CHECKER] Test Failed: 10
+#                  275ns------------------------------------------------------
+#                  275ns [TB][DRIVER] Drove Request: 01
+#                  275ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  285ns [DUT][MAIN] Request: 01| Grant: 00
+#                  285[TB][CHECKER] Test Failed: 00
+#                  285ns------------------------------------------------------
+#                  285ns [TB][DRIVER] Drove Request: 01
+#                  285ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  295ns [DUT][MAIN] Request: 01| Grant: 01
+#                  295[TB][CHECKER] Test Passed: 01
+#                  295ns------------------------------------------------------
+#                  295ns [TB][DRIVER] Drove Request: 01
+#                  295ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  305ns [DUT][MAIN] Request: 01| Grant: 01
+#                  305[TB][CHECKER] Test Passed: 01
+#                  305ns------------------------------------------------------
+#                  305ns [TB][DRIVER] Drove Request: 01
+#                  305ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  315ns [DUT][MAIN] Request: 01| Grant: 01
+#                  315[TB][CHECKER] Test Passed: 01
+#                  315ns------------------------------------------------------
+#                  315ns [TB][DRIVER] Drove Request: 00
+#                  315ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  325ns [DUT][MAIN] Request: 00| Grant: 01
+#                  325[TB][CHECKER] Test Failed: 01
+#                  325ns------------------------------------------------------
+#                  325ns [TB][DRIVER] Drove Request: 10
+#                  325ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  335ns [DUT][MAIN] Request: 10| Grant: 00
+#                  335[TB][CHECKER] Test Failed: 00
+#                  335ns------------------------------------------------------
+#                  335ns [TB][DRIVER] Drove Request: 10
+#                  335ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  345ns [DUT][MAIN] Request: 10| Grant: 10
+#                  345[TB][CHECKER] Test Passed: 10
+#                  345ns------------------------------------------------------
+#                  345ns [TB][DRIVER] Drove Request: 11
+#                  345ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  355ns [DUT][MAIN] Request: 11| Grant: 10
+#                  355[TB][CHECKER] Test Failed: 10
+#                  355ns------------------------------------------------------
+#                  355ns [TB][DRIVER] Drove Request: 00
+#                  355ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  365ns [DUT][MAIN] Request: 00| Grant: 10
+#                  365[TB][CHECKER] Test Failed: 10
+#                  365ns------------------------------------------------------
+#                  365ns [TB][DRIVER] Drove Request: 01
+#                  365ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  375ns [DUT][MAIN] Request: 01| Grant: 00
+#                  375[TB][CHECKER] Test Failed: 00
+#                  375ns------------------------------------------------------
+#                  375ns [TB][DRIVER] Drove Request: 00
+#                  375ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  385ns [DUT][MAIN] Request: 00| Grant: 01
+#                  385[TB][CHECKER] Test Failed: 01
+#                  385ns------------------------------------------------------
+#                  385ns [TB][DRIVER] Drove Request: 01
+#                  385ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  395ns [DUT][MAIN] Request: 01| Grant: 00
+#                  395[TB][CHECKER] Test Failed: 00
+#                  395ns------------------------------------------------------
+#                  395ns [TB][DRIVER] Drove Request: 01
+#                  395ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  405ns [DUT][MAIN] Request: 01| Grant: 01
+#                  405[TB][CHECKER] Test Passed: 01
+#                  405ns------------------------------------------------------
+#                  405ns [TB][DRIVER] Drove Request: 11
+#                  405ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  415ns [DUT][MAIN] Request: 11| Grant: 01
+#                  415[TB][CHECKER] Test Failed: 01
+#                  415ns------------------------------------------------------
+#                  415ns [TB][DRIVER] Drove Request: 11
+#                  415ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  425ns [DUT][MAIN] Request: 11| Grant: 10
+#                  425[TB][CHECKER] Test Failed: 10
+#                  425ns------------------------------------------------------
+#                  425ns [TB][DRIVER] Drove Request: 00
+#                  425ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  435ns [DUT][MAIN] Request: 00| Grant: 10
+#                  435[TB][CHECKER] Test Failed: 10
+#                  435ns------------------------------------------------------
+#                  435ns [TB][DRIVER] Drove Request: 00
+#                  435ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  445ns [DUT][MAIN] Request: 00| Grant: 00
+#                  445[TB][CHECKER] Test Passed: 00
+#                  445ns------------------------------------------------------
+#                  445ns [TB][DRIVER] Drove Request: 11
+#                  445ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  455ns [DUT][MAIN] Request: 11| Grant: 00
+#                  455[TB][CHECKER] Test Failed: 00
+#                  455ns------------------------------------------------------
+#                  455ns [TB][DRIVER] Drove Request: 01
+#                  455ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  465ns [DUT][MAIN] Request: 01| Grant: 10
+#                  465[TB][CHECKER] Test Failed: 10
+#                  465----------[TB][FINAL] TEST STATS---------
+#                  465TEST PASSED:           9
+#                  465TEST FAILED:          31
+#                  465TEST TOTAL:          40
+# ** Note: $finish    : test_arbiter.sv(49)
+#    Time: 4650 ns  Iteration: 1  Instance: /top/t1
+# 1
+# Break in Module test_arbiter at test_arbiter.sv line 49
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_arbiter
+# 
+# Top level modules:
+# 	test_arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling interface arb_if
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim -novopt top 
+# Loading sv_std.std
+# Loading work.top
+# Loading work.arb_if
+# Loading work.test_arbiter
+# Loading work.arbiter
+# ** Warning: (vsim-8441) test_arbiter.sv(18): Clocking block output arbif.cb.request is not legal in this
+# or another expression.
+#         Region: /top/t1
+# ** Warning: (vsim-8441) test_arbiter.sv(16): Clocking block output arbif.cb.reset is not legal in this
+# or another expression.
+#         Region: /top/t1
+#                    0ns [TB] Start Testing
+#                    5ns [DUT][RESET] Reseting the DUT: xx
+#                    5ns [TB][RESET] Asserting Reset: x
+#                   15ns [DUT][RESET] Reseting the DUT: 00
+#                   25ns [DUT][RESET] Reseting the DUT: 00
+#                   35ns [DUT][RESET] Reseting the DUT: 00
+#                   45ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [DUT][RESET] Reseting the DUT: 00
+#                   55ns [TB][RESET] Clearing Reset: 1
+#                   65ns [DUT][MAIN] Request: 00| Grant: 00
+#                   65ns------------------------------------------------------
+#                   65ns [TB][DRIVER] Drove Request: 11
+#                   65ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   75ns [DUT][MAIN] Request: 11| Grant: 00
+#                   85ns [DUT][MAIN] Request: 11| Grant: 10
+#                   85[TB][CHECKER] Test Failed: 10
+#                   85ns------------------------------------------------------
+#                   85ns [TB][DRIVER] Drove Request: 11
+#                   85ns [TB][GOLD REF] Request: 11| Grant: 11
+#                   95ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105ns [DUT][MAIN] Request: 11| Grant: 10
+#                  105[TB][CHECKER] Test Failed: 10
+#                  105ns------------------------------------------------------
+#                  105ns [TB][DRIVER] Drove Request: 10
+#                  105ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  115ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125ns [DUT][MAIN] Request: 10| Grant: 10
+#                  125[TB][CHECKER] Test Passed: 10
+#                  125ns------------------------------------------------------
+#                  125ns [TB][DRIVER] Drove Request: 01
+#                  125ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  135ns [DUT][MAIN] Request: 01| Grant: 10
+#                  145ns [DUT][MAIN] Request: 01| Grant: 01
+#                  145[TB][CHECKER] Test Passed: 01
+#                  145ns------------------------------------------------------
+#                  145ns [TB][DRIVER] Drove Request: 01
+#                  145ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  155ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165ns [DUT][MAIN] Request: 01| Grant: 01
+#                  165[TB][CHECKER] Test Passed: 01
+#                  165ns------------------------------------------------------
+#                  165ns [TB][DRIVER] Drove Request: 00
+#                  165ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  175ns [DUT][MAIN] Request: 00| Grant: 01
+#                  185ns [DUT][MAIN] Request: 00| Grant: 00
+#                  185[TB][CHECKER] Test Passed: 00
+#                  185ns------------------------------------------------------
+#                  185ns [TB][DRIVER] Drove Request: 11
+#                  185ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  195ns [DUT][MAIN] Request: 11| Grant: 00
+#                  205ns [DUT][MAIN] Request: 11| Grant: 10
+#                  205[TB][CHECKER] Test Failed: 10
+#                  205ns------------------------------------------------------
+#                  205ns [TB][DRIVER] Drove Request: 10
+#                  205ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  215ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225ns [DUT][MAIN] Request: 10| Grant: 10
+#                  225[TB][CHECKER] Test Passed: 10
+#                  225ns------------------------------------------------------
+#                  225ns [TB][DRIVER] Drove Request: 01
+#                  225ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  235ns [DUT][MAIN] Request: 01| Grant: 10
+#                  245ns [DUT][MAIN] Request: 01| Grant: 01
+#                  245[TB][CHECKER] Test Passed: 01
+#                  245ns------------------------------------------------------
+#                  245ns [TB][DRIVER] Drove Request: 10
+#                  245ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  255ns [DUT][MAIN] Request: 10| Grant: 01
+#                  265ns [DUT][MAIN] Request: 10| Grant: 10
+#                  265[TB][CHECKER] Test Passed: 10
+#                  265ns------------------------------------------------------
+#                  265ns [TB][DRIVER] Drove Request: 11
+#                  265ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  275ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285ns [DUT][MAIN] Request: 11| Grant: 10
+#                  285[TB][CHECKER] Test Failed: 10
+#                  285ns------------------------------------------------------
+#                  285ns [TB][DRIVER] Drove Request: 01
+#                  285ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  295ns [DUT][MAIN] Request: 01| Grant: 10
+#                  305ns [DUT][MAIN] Request: 01| Grant: 01
+#                  305[TB][CHECKER] Test Passed: 01
+#                  305ns------------------------------------------------------
+#                  305ns [TB][DRIVER] Drove Request: 11
+#                  305ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  315ns [DUT][MAIN] Request: 11| Grant: 01
+#                  325ns [DUT][MAIN] Request: 11| Grant: 10
+#                  325[TB][CHECKER] Test Failed: 10
+#                  325ns------------------------------------------------------
+#                  325ns [TB][DRIVER] Drove Request: 01
+#                  325ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  335ns [DUT][MAIN] Request: 01| Grant: 10
+#                  345ns [DUT][MAIN] Request: 01| Grant: 01
+#                  345[TB][CHECKER] Test Passed: 01
+#                  345ns------------------------------------------------------
+#                  345ns [TB][DRIVER] Drove Request: 11
+#                  345ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  355ns [DUT][MAIN] Request: 11| Grant: 01
+#                  365ns [DUT][MAIN] Request: 11| Grant: 10
+#                  365[TB][CHECKER] Test Failed: 10
+#                  365ns------------------------------------------------------
+#                  365ns [TB][DRIVER] Drove Request: 00
+#                  365ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  375ns [DUT][MAIN] Request: 00| Grant: 10
+#                  385ns [DUT][MAIN] Request: 00| Grant: 00
+#                  385[TB][CHECKER] Test Passed: 00
+#                  385ns------------------------------------------------------
+#                  385ns [TB][DRIVER] Drove Request: 10
+#                  385ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  395ns [DUT][MAIN] Request: 10| Grant: 00
+#                  405ns [DUT][MAIN] Request: 10| Grant: 10
+#                  405[TB][CHECKER] Test Passed: 10
+#                  405ns------------------------------------------------------
+#                  405ns [TB][DRIVER] Drove Request: 00
+#                  405ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  415ns [DUT][MAIN] Request: 00| Grant: 10
+#                  425ns [DUT][MAIN] Request: 00| Grant: 00
+#                  425[TB][CHECKER] Test Passed: 00
+#                  425ns------------------------------------------------------
+#                  425ns [TB][DRIVER] Drove Request: 11
+#                  425ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  435ns [DUT][MAIN] Request: 11| Grant: 00
+#                  445ns [DUT][MAIN] Request: 11| Grant: 10
+#                  445[TB][CHECKER] Test Failed: 10
+#                  445ns------------------------------------------------------
+#                  445ns [TB][DRIVER] Drove Request: 11
+#                  445ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  455ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465ns [DUT][MAIN] Request: 11| Grant: 10
+#                  465[TB][CHECKER] Test Failed: 10
+#                  465ns------------------------------------------------------
+#                  465ns [TB][DRIVER] Drove Request: 00
+#                  465ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  475ns [DUT][MAIN] Request: 00| Grant: 10
+#                  485ns [DUT][MAIN] Request: 00| Grant: 00
+#                  485[TB][CHECKER] Test Passed: 00
+#                  485ns------------------------------------------------------
+#                  485ns [TB][DRIVER] Drove Request: 01
+#                  485ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  495ns [DUT][MAIN] Request: 01| Grant: 00
+#                  505ns [DUT][MAIN] Request: 01| Grant: 01
+#                  505[TB][CHECKER] Test Passed: 01
+#                  505ns------------------------------------------------------
+#                  505ns [TB][DRIVER] Drove Request: 01
+#                  505ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  515ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525ns [DUT][MAIN] Request: 01| Grant: 01
+#                  525[TB][CHECKER] Test Passed: 01
+#                  525ns------------------------------------------------------
+#                  525ns [TB][DRIVER] Drove Request: 01
+#                  525ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  535ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545ns [DUT][MAIN] Request: 01| Grant: 01
+#                  545[TB][CHECKER] Test Passed: 01
+#                  545ns------------------------------------------------------
+#                  545ns [TB][DRIVER] Drove Request: 01
+#                  545ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  555ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565ns [DUT][MAIN] Request: 01| Grant: 01
+#                  565[TB][CHECKER] Test Passed: 01
+#                  565ns------------------------------------------------------
+#                  565ns [TB][DRIVER] Drove Request: 00
+#                  565ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  575ns [DUT][MAIN] Request: 00| Grant: 01
+#                  585ns [DUT][MAIN] Request: 00| Grant: 00
+#                  585[TB][CHECKER] Test Passed: 00
+#                  585ns------------------------------------------------------
+#                  585ns [TB][DRIVER] Drove Request: 10
+#                  585ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  595ns [DUT][MAIN] Request: 10| Grant: 00
+#                  605ns [DUT][MAIN] Request: 10| Grant: 10
+#                  605[TB][CHECKER] Test Passed: 10
+#                  605ns------------------------------------------------------
+#                  605ns [TB][DRIVER] Drove Request: 10
+#                  605ns [TB][GOLD REF] Request: 10| Grant: 10
+#                  615ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625ns [DUT][MAIN] Request: 10| Grant: 10
+#                  625[TB][CHECKER] Test Passed: 10
+#                  625ns------------------------------------------------------
+#                  625ns [TB][DRIVER] Drove Request: 11
+#                  625ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  635ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645ns [DUT][MAIN] Request: 11| Grant: 10
+#                  645[TB][CHECKER] Test Failed: 10
+#                  645ns------------------------------------------------------
+#                  645ns [TB][DRIVER] Drove Request: 00
+#                  645ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  655ns [DUT][MAIN] Request: 00| Grant: 10
+#                  665ns [DUT][MAIN] Request: 00| Grant: 00
+#                  665[TB][CHECKER] Test Passed: 00
+#                  665ns------------------------------------------------------
+#                  665ns [TB][DRIVER] Drove Request: 01
+#                  665ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  675ns [DUT][MAIN] Request: 01| Grant: 00
+#                  685ns [DUT][MAIN] Request: 01| Grant: 01
+#                  685[TB][CHECKER] Test Passed: 01
+#                  685ns------------------------------------------------------
+#                  685ns [TB][DRIVER] Drove Request: 00
+#                  685ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  695ns [DUT][MAIN] Request: 00| Grant: 01
+#                  705ns [DUT][MAIN] Request: 00| Grant: 00
+#                  705[TB][CHECKER] Test Passed: 00
+#                  705ns------------------------------------------------------
+#                  705ns [TB][DRIVER] Drove Request: 01
+#                  705ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  715ns [DUT][MAIN] Request: 01| Grant: 00
+#                  725ns [DUT][MAIN] Request: 01| Grant: 01
+#                  725[TB][CHECKER] Test Passed: 01
+#                  725ns------------------------------------------------------
+#                  725ns [TB][DRIVER] Drove Request: 01
+#                  725ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  735ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745ns [DUT][MAIN] Request: 01| Grant: 01
+#                  745[TB][CHECKER] Test Passed: 01
+#                  745ns------------------------------------------------------
+#                  745ns [TB][DRIVER] Drove Request: 11
+#                  745ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  755ns [DUT][MAIN] Request: 11| Grant: 01
+#                  765ns [DUT][MAIN] Request: 11| Grant: 10
+#                  765[TB][CHECKER] Test Failed: 10
+#                  765ns------------------------------------------------------
+#                  765ns [TB][DRIVER] Drove Request: 11
+#                  765ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  775ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785ns [DUT][MAIN] Request: 11| Grant: 10
+#                  785[TB][CHECKER] Test Failed: 10
+#                  785ns------------------------------------------------------
+#                  785ns [TB][DRIVER] Drove Request: 00
+#                  785ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  795ns [DUT][MAIN] Request: 00| Grant: 10
+#                  805ns [DUT][MAIN] Request: 00| Grant: 00
+#                  805[TB][CHECKER] Test Passed: 00
+#                  805ns------------------------------------------------------
+#                  805ns [TB][DRIVER] Drove Request: 00
+#                  805ns [TB][GOLD REF] Request: 00| Grant: 00
+#                  815ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825ns [DUT][MAIN] Request: 00| Grant: 00
+#                  825[TB][CHECKER] Test Passed: 00
+#                  825ns------------------------------------------------------
+#                  825ns [TB][DRIVER] Drove Request: 11
+#                  825ns [TB][GOLD REF] Request: 11| Grant: 11
+#                  835ns [DUT][MAIN] Request: 11| Grant: 00
+#                  845ns [DUT][MAIN] Request: 11| Grant: 10
+#                  845[TB][CHECKER] Test Failed: 10
+#                  845ns------------------------------------------------------
+#                  845ns [TB][DRIVER] Drove Request: 01
+#                  845ns [TB][GOLD REF] Request: 01| Grant: 01
+#                  855ns [DUT][MAIN] Request: 01| Grant: 10
+#                  865ns [DUT][MAIN] Request: 01| Grant: 01
+#                  865[TB][CHECKER] Test Passed: 01
+#                  865----------[TB][FINAL] TEST STATS---------
+#                  865TEST PASSED:          28
+#                  865TEST FAILED:          12
+#                  865TEST TOTAL:          40
+# ** Note: $finish    : test_arbiter.sv(49)
+#    Time: 8650 ns  Iteration: 1  Instance: /top/t1
+# 1
+# Break in Module test_arbiter at test_arbiter.sv line 49
+# Simulation Breakpoint: 1
+# Break in Module test_arbiter at test_arbiter.sv line 49
+# MACRO ./compile.do PAUSED at line 11

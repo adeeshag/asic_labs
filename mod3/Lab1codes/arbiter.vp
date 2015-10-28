@@ -1,0 +1,49 @@
+//********************************************************************                                        
+//  AUTHOR: Engineering Design Institute/ASIC Design and Verification	                                                     		
+//  DESCRIPTION: XOR                                         
+//  MODULE NAME: arbiter_design
+//********************************************************************
+ `timescale 10 ns / 1 ps
+
+ module arbiter( clk,
+				reset,
+				grant,
+				request);
+ input clk;
+ input reset;
+ input [1:0] request;
+output reg [1:0] grant;
+ 
+
+  `pragma protect begin_protected
+`pragma protect version = 1
+`pragma protect encrypt_agent = "Model Technology", encrypt_agent_info = "10.0c"
+`pragma protect data_method = "aes128-cbc"
+`pragma protect key_keyowner = "Mentor Graphics Corporation" , key_keyname = "MGC-VERIF-SIM-RSA-1" , key_method = "rsa"
+`pragma protect key_block encoding = (enctype = "base64", line_length = 64, bytes = 128)
+PU+cD5vgnWiXAyGs8YVevUTGIrFwNEXGg/zBCUZKbNngulwMLDT+YP++ofk5v30K
+s1agRNjoL19CyAZWQslIZy3hx816mWBob/XZ6ZsUXoghMX3YAeq7Uu4vVMI1ORm4
+cEmwDJpnqW7zHmIXDjC5dTSkvSYqftZwBSKWB/zj86o=
+`pragma protect data_block encoding = (enctype = "base64", line_length = 64, bytes = 560)
+lzQJ6rNQ1Da7ngFU3yvNUmKcy0o0C5dcH33N7AgIhWbzFtNjuuYoqB8pflPO7iu3
+EcdKiZ5tRgiv/3Eaj8264yiCITRapbYPRFHGWLXWk3Y6OsJYp419DrGQZKGQzvb3
+klWTaZiS9Q8ZkjvOLkNneuNVMM2jBJfsLh24pw2MPiFRh1Qb5bTsBabR+OKhrpNL
+2pJZKjWr6M69aIT02uw6G8c6/VVpYXyJh1/BSMK5lvR4FlNmDRfu5TP4QuYhLbI0
+uacn1eshHcfSZTIhM9jpsBuTugZZLjeM+9I9L3OWiKMfA5OUkwcKJy8CUGcHPsEl
+P8eIjLVPE+dHPWSndE3OmVbeY4bJT97WZXtbMup1/b8AQ+xM2YYdG+f0GFlXGdnp
+z7rTdRrl6jdYz0uKFkHxoO/4zElszmnTV+QHqmdS/rhGUdta3wrXalDKEAtFCqFG
+ipB51920XYABES5/kNlFFwD+76dEx2wcYqnd03wMLrEGGjofX1un21vsYjrzjGfU
+Sy8YtxYEtE06YO9KzH9yy/80huBr2LN7Zfk9D+O8J/q8TZbiYoJidD182qEvPO9N
+Z1nBWHJ/hp64npT44y1jG2ZZ0PRJ3ym0qnsP1CiQo+MAAM9qx5x/nAigvdPP5TkV
+XvZfsYzlCViwyrupBxB7eWWmi/M6p3aK4RaTzWUZQ7ZwU4RSBP/KjJzrlUCi8drQ
+XwmzCvXknuWOw2wuRK6WK1lzpUdrynIchOQzfV/5GZA=
+`pragma protect end_protected
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 

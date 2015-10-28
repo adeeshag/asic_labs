@@ -1,0 +1,76 @@
+//********************************************************************                                        
+//  AUTHOR: Engineering Design Institute/ASIC Design and Verification	                                                     		
+//  DESCRIPTION: XOR                                         
+//  MODULE NAME: xor_design
+//********************************************************************
+ `timescale 10 ns / 1 ps
+
+ module memory( clk,
+					reset,
+					WrEn,
+					RdEn,
+					RdEn_Opcode,
+					RdBus,
+					BitAddr,
+					ByteAddr,
+					Addr,
+					WrBus,
+					StudentId);
+ input clk;
+ input reset;
+ input WrEn, RdEn;
+ input [1:0] RdEn_Opcode;
+ input [7:0] Addr, BitAddr;
+ input [1:0] ByteAddr;
+ input [31:0] WrBus;
+ output reg [31:0] RdBus;
+ reg [31:0] Mem [0:255];
+ reg [31:0] MemRdOut, MemWrIn;
+ reg next_state=0;
+ parameter S0=0, S1=1;
+ input [31:0] StudentId;
+
+  `pragma protect begin_protected
+`pragma protect version = 1
+`pragma protect encrypt_agent = "Model Technology", encrypt_agent_info = "10.0c"
+`pragma protect data_method = "aes128-cbc"
+`pragma protect key_keyowner = "Mentor Graphics Corporation" , key_keyname = "MGC-VERIF-SIM-RSA-1" , key_method = "rsa"
+`pragma protect key_block encoding = (enctype = "base64", line_length = 64, bytes = 128)
+bX1WnaStrTIUj1p0EjLRPZuctmL7GbgksU7g4unbEfbMtCwfAvINiyGib4yaZj+W
+XtV+V14yF22xSbRgW6qJbvVYYJ/1oveN7jZlapDJ3R/2zXA9TgZxkAaWNe+s8hHx
+XztOy1JNc4/kUhzQIEAu4K1cKXvRq5dn/J+Tt+uXrOI=
+`pragma protect data_block encoding = (enctype = "base64", line_length = 64, bytes = 1120)
+X4SH5nMdLteouXosyExgbhn+N8K1NAWsyCzndwDDSVN0nR0obHHlouMOn+5Dzjkz
+5U+hRfQ6wFDjY+qoYGGWQiUruc0SNNiqlHVevmxgv2jTtl3nZMwzL7RciXGnQWRA
+sjWa7+yv9oKa3EUBdUTjq+WokHt2+yPPUx7YAlhlUQuHyjbglQfmWZ2dugcOxJi6
+ENFI+j/C3sEeT8LgeYCAitSuWlPm2d2sjfVP9CPZ6vJZLvFr0QrYlTGtZyjQJXsj
+lNF6FmJq9vfqhsEn5B6Fm+qMj4GBqnz6a2xU7QxJJQpnuzTehEQynXdtJWkM2S3w
+vuAqjrQOopZqJSAvRYqSqNDk7rSx2tjc6hlojhpCd4Ua9a1A4X6g0dAyxZQWj3Sw
+LmZKruNSBDZN1rlSZJqQEuF2nK3YOeV1mFNyOvFa1UhYyOP6V29EH+lix/NL2sgV
+bnT9XiymfKuU+D1M1MvSMXJvXoWQOGn1p4ALPkChLYhiG4K5fqblg9D1ktgz4pYN
+fVgsWUvrHPl1nh23siZ+Y0OwvpoAdjt6yGQE3sU5sHsNJHsHUoXnelIJ/9ouXzgL
+rdskKdghjPK1AKfwHsvlZxmRT8fuTh+Hr5UztkmQX06cJ39sXm0LIBS99UDOHrM9
+2QhoUOOlCILB9QqaE+0RW3H7AgOkOT+81s3M/AAt6Trh/UKkkPjj66tHrfVBp1rq
+0ysb2NlkA1FtSS5Y9BMMYpkJOCkSKbOpXglbqV9N4FtdizwaTUYAoXy6skae74fW
+Va81zcD0lUDbDNMUZ/5LBO0mpNtWIWs5LPSLDpEmcKNECDH9qDoI7aEe8RaWCZHQ
+t5i69LPjhkzRLM7NOVfBwdPjAWa1QwEfNuH7iBgGI0XF2ZMDgMjdeen7UXy21g61
+/5feDB+qV+R5ORkT7mSXikSFs5gwP1oXkYAJV/0clBjIN8dus1yHU2sruBbt0RQP
+dtfeIwdkDuLLs8BiVZrE4CPtkta77zO7kwsC+l46aB0AVDA7nIxWqn5HLWHSmkZS
+g7A5L/RlePLYAnHzIIME3+rFiEZYyvmJzMfESjLYBh9ReWSAmCUbbGhXyciRAOP0
+KU4uUUVhayEFAxnPN4ZZRRE2nR/wvrFWPnaXMnNai1lqiz1fZVi33ckEyo6un9nH
+mym9/5CiU0xbHeJIecuUOoT8uxAUgv41Av0zhtFeEbA3zl/4wWkUaQMmmt8a5/Zn
+kMGGXKzdK06YnAyOEzlX/5KXYZwqtdgg86taBg9S3tSUpytBis7EXtGQXSvejGth
+QCaEcjTPf35KZhJ6anLhE5BaXwTWf1YSWOt7sjnGRM/eAMLRsc485CkX657dTUlI
+rnDcL38VheY00N6KAOyr/eba4a8NPlPGszPwIV7u5pc10TWEvqCmxLN3VUGVxyvR
+E+DQZWayFmk4HUxSFFWQj6azg3uaNz4zuDQzHrIGu3VXFnpiE4HW/Y5eHEk5bmPf
+W/sEfoIDOxUPJ2qDyxVBIg==
+`pragma protect end_protected
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 

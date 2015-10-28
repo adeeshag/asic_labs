@@ -1,0 +1,47 @@
+# //  ModelSim SE 10.0c Jul 21 2011 Linux 2.6.32-573.3.1.el6.x86_64
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -novopt test_xor 
+# ** Error: (vsim-3170) Could not find '/afs/unity.ncsu.edu/users/a/aankara/third_sem/ece745/mod1/tutorial/work.test_xor'.
+# Error loading design
+#  
+vlog xor_design.v
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+vlog test_xor_design.sv
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+vsim -novopt test_xor
+# vsim -novopt test_xor 
+# Loading sv_std.std
+# Loading work.test_xor
+# Loading work.xor_design
+
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+# vsim -novopt test_xor 
+# Loading sv_std.std
+# Loading work.test_xor
+# Loading work.xor_design
+

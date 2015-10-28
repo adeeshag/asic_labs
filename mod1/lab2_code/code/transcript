@@ -1,0 +1,6385 @@
+#  
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+# vsim -novopt test_xor 
+# //  ModelSim SE 10.0c Jul 21 2011 Linux 2.6.32-573.3.1.el6.x86_64
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.test_xor
+# Loading work.xor_design
+# Value of A: 0000  B= 0000  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0001  B= 0000  
+#  Y= 0000 Golden_ref=0001 
+# 
+# Value of A: 0010  B= 0000  
+#  Y= 0001 Golden_ref=0010 
+# 
+# Value of A: 0011  B= 0000  
+#  Y= 0010 Golden_ref=0011 
+# 
+# Value of A: 0100  B= 0000  
+#  Y= 0011 Golden_ref=0100 
+# 
+# Value of A: 0101  B= 0000  
+#  Y= 0000 Golden_ref=0101 
+# 
+# Value of A: 0110  B= 0000  
+#  Y= 0001 Golden_ref=0110 
+# 
+# Value of A: 0111  B= 0000  
+#  Y= 0010 Golden_ref=0111 
+# 
+# Value of A: 1000  B= 0000  
+#  Y= 0011 Golden_ref=1000 
+# 
+# Value of A: 1001  B= 0000  
+#  Y= 1000 Golden_ref=1001 
+# 
+# Value of A: 1010  B= 0000  
+#  Y= 1001 Golden_ref=1010 
+# 
+# Value of A: 1011  B= 0000  
+#  Y= 1010 Golden_ref=1011 
+# 
+# Value of A: 1100  B= 0000  
+#  Y= 1011 Golden_ref=1100 
+# 
+# Value of A: 1101  B= 0000  
+#  Y= 1000 Golden_ref=1101 
+# 
+# Value of A: 1110  B= 0000  
+#  Y= 1001 Golden_ref=1110 
+# 
+# Value of A: 1111  B= 0000  
+#  Y= 1010 Golden_ref=1111 
+# 
+# Value of A: 0000  B= 0001  
+#  Y= 1011 Golden_ref=0001 
+# 
+# Value of A: 0001  B= 0001  
+#  Y= 0001 Golden_ref=0000 
+# 
+# Value of A: 0010  B= 0001  
+#  Y= 0000 Golden_ref=0011 
+# 
+# Value of A: 0011  B= 0001  
+#  Y= 0011 Golden_ref=0010 
+# 
+# Value of A: 0100  B= 0001  
+#  Y= 0010 Golden_ref=0101 
+# 
+# Value of A: 0101  B= 0001  
+#  Y= 0001 Golden_ref=0100 
+# 
+# Value of A: 0110  B= 0001  
+#  Y= 0000 Golden_ref=0111 
+# 
+# Value of A: 0111  B= 0001  
+#  Y= 0011 Golden_ref=0110 
+# 
+# Value of A: 1000  B= 0001  
+#  Y= 0010 Golden_ref=1001 
+# 
+# Value of A: 1001  B= 0001  
+#  Y= 1001 Golden_ref=1000 
+# 
+# Value of A: 1010  B= 0001  
+#  Y= 1000 Golden_ref=1011 
+# 
+# Value of A: 1011  B= 0001  
+#  Y= 1011 Golden_ref=1010 
+# 
+# Value of A: 1100  B= 0001  
+#  Y= 1010 Golden_ref=1101 
+# 
+# Value of A: 1101  B= 0001  
+#  Y= 1001 Golden_ref=1100 
+# 
+# Value of A: 1110  B= 0001  
+#  Y= 1000 Golden_ref=1111 
+# 
+# Value of A: 1111  B= 0001  
+#  Y= 1011 Golden_ref=1110 
+# 
+# Value of A: 0000  B= 0010  
+#  Y= 1010 Golden_ref=0010 
+# 
+# Value of A: 0001  B= 0010  
+#  Y= 0010 Golden_ref=0011 
+# 
+# Value of A: 0010  B= 0010  
+#  Y= 0011 Golden_ref=0000 
+# 
+# Value of A: 0011  B= 0010  
+#  Y= 0000 Golden_ref=0001 
+# 
+# Value of A: 0100  B= 0010  
+#  Y= 0001 Golden_ref=0110 
+# 
+# Value of A: 0101  B= 0010  
+#  Y= 0010 Golden_ref=0111 
+# 
+# Value of A: 0110  B= 0010  
+#  Y= 0011 Golden_ref=0100 
+# 
+# Value of A: 0111  B= 0010  
+#  Y= 0000 Golden_ref=0101 
+# 
+# Value of A: 1000  B= 0010  
+#  Y= 0001 Golden_ref=1010 
+# 
+# Value of A: 1001  B= 0010  
+#  Y= 1010 Golden_ref=1011 
+# 
+# Value of A: 1010  B= 0010  
+#  Y= 1011 Golden_ref=1000 
+# 
+# Value of A: 1011  B= 0010  
+#  Y= 1000 Golden_ref=1001 
+# 
+# Value of A: 1100  B= 0010  
+#  Y= 1001 Golden_ref=1110 
+# 
+# Value of A: 1101  B= 0010  
+#  Y= 1010 Golden_ref=1111 
+# 
+# Value of A: 1110  B= 0010  
+#  Y= 1011 Golden_ref=1100 
+# 
+# Value of A: 1111  B= 0010  
+#  Y= 1000 Golden_ref=1101 
+# 
+# Value of A: 0000  B= 0011  
+#  Y= 1001 Golden_ref=0011 
+# 
+# Value of A: 0001  B= 0011  
+#  Y= 0011 Golden_ref=0010 
+# 
+# Value of A: 0010  B= 0011  
+#  Y= 0010 Golden_ref=0001 
+# 
+# Value of A: 0011  B= 0011  
+#  Y= 0001 Golden_ref=0000 
+# 
+# Value of A: 0100  B= 0011  
+#  Y= 0000 Golden_ref=0111 
+# 
+# Value of A: 0101  B= 0011  
+#  Y= 0011 Golden_ref=0110 
+# 
+# Value of A: 0110  B= 0011  
+#  Y= 0010 Golden_ref=0101 
+# 
+# Value of A: 0111  B= 0011  
+#  Y= 0001 Golden_ref=0100 
+# 
+# Value of A: 1000  B= 0011  
+#  Y= 0000 Golden_ref=1011 
+# 
+# Value of A: 1001  B= 0011  
+#  Y= 1011 Golden_ref=1010 
+# 
+# Value of A: 1010  B= 0011  
+#  Y= 1010 Golden_ref=1001 
+# 
+# Value of A: 1011  B= 0011  
+#  Y= 1001 Golden_ref=1000 
+# 
+# Value of A: 1100  B= 0011  
+#  Y= 1000 Golden_ref=1111 
+# 
+# Value of A: 1101  B= 0011  
+#  Y= 1011 Golden_ref=1110 
+# 
+# Value of A: 1110  B= 0011  
+#  Y= 1010 Golden_ref=1101 
+# 
+# Value of A: 1111  B= 0011  
+#  Y= 1001 Golden_ref=1100 
+# 
+# Value of A: 0000  B= 0100  
+#  Y= 1000 Golden_ref=0100 
+# 
+# Value of A: 0001  B= 0100  
+#  Y= 0000 Golden_ref=0101 
+# 
+# Value of A: 0010  B= 0100  
+#  Y= 0001 Golden_ref=0110 
+# 
+# Value of A: 0011  B= 0100  
+#  Y= 0010 Golden_ref=0111 
+# 
+# Value of A: 0100  B= 0100  
+#  Y= 0011 Golden_ref=0000 
+# 
+# Value of A: 0101  B= 0100  
+#  Y= 0000 Golden_ref=0001 
+# 
+# Value of A: 0110  B= 0100  
+#  Y= 0001 Golden_ref=0010 
+# 
+# Value of A: 0111  B= 0100  
+#  Y= 0010 Golden_ref=0011 
+# 
+# Value of A: 1000  B= 0100  
+#  Y= 0011 Golden_ref=1100 
+# 
+# Value of A: 1001  B= 0100  
+#  Y= 1000 Golden_ref=1101 
+# 
+# Value of A: 1010  B= 0100  
+#  Y= 1001 Golden_ref=1110 
+# 
+# Value of A: 1011  B= 0100  
+#  Y= 1010 Golden_ref=1111 
+# 
+# Value of A: 1100  B= 0100  
+#  Y= 1011 Golden_ref=1000 
+# 
+# Value of A: 1101  B= 0100  
+#  Y= 1000 Golden_ref=1001 
+# 
+# Value of A: 1110  B= 0100  
+#  Y= 1001 Golden_ref=1010 
+# 
+# Value of A: 1111  B= 0100  
+#  Y= 1010 Golden_ref=1011 
+# 
+# Value of A: 0000  B= 0101  
+#  Y= 1011 Golden_ref=0101 
+# 
+# Value of A: 0001  B= 0101  
+#  Y= 0001 Golden_ref=0100 
+# 
+# Value of A: 0010  B= 0101  
+#  Y= 0000 Golden_ref=0111 
+# 
+# Value of A: 0011  B= 0101  
+#  Y= 0011 Golden_ref=0110 
+# 
+# Value of A: 0100  B= 0101  
+#  Y= 0010 Golden_ref=0001 
+# 
+# Value of A: 0101  B= 0101  
+#  Y= 0001 Golden_ref=0000 
+# 
+# Value of A: 0110  B= 0101  
+#  Y= 0000 Golden_ref=0011 
+# 
+# Value of A: 0111  B= 0101  
+#  Y= 0011 Golden_ref=0010 
+# 
+# Value of A: 1000  B= 0101  
+#  Y= 0010 Golden_ref=1101 
+# 
+# Value of A: 1001  B= 0101  
+#  Y= 1001 Golden_ref=1100 
+# 
+# Value of A: 1010  B= 0101  
+#  Y= 1000 Golden_ref=1111 
+# 
+# Value of A: 1011  B= 0101  
+#  Y= 1011 Golden_ref=1110 
+# 
+# Value of A: 1100  B= 0101  
+#  Y= 1010 Golden_ref=1001 
+# 
+# Value of A: 1101  B= 0101  
+#  Y= 1001 Golden_ref=1000 
+# 
+# Value of A: 1110  B= 0101  
+#  Y= 1000 Golden_ref=1011 
+# 
+# Value of A: 1111  B= 0101  
+#  Y= 1011 Golden_ref=1010 
+# 
+# Value of A: 0000  B= 0110  
+#  Y= 1010 Golden_ref=0110 
+# 
+# Value of A: 0001  B= 0110  
+#  Y= 0010 Golden_ref=0111 
+# 
+# Value of A: 0010  B= 0110  
+#  Y= 0011 Golden_ref=0100 
+# 
+# Value of A: 0011  B= 0110  
+#  Y= 0000 Golden_ref=0101 
+# 
+# Value of A: 0100  B= 0110  
+#  Y= 0001 Golden_ref=0010 
+# 
+# Value of A: 0101  B= 0110  
+#  Y= 0010 Golden_ref=0011 
+# 
+# Value of A: 0110  B= 0110  
+#  Y= 0011 Golden_ref=0000 
+# 
+# Value of A: 0111  B= 0110  
+#  Y= 0000 Golden_ref=0001 
+# 
+# Value of A: 1000  B= 0110  
+#  Y= 0001 Golden_ref=1110 
+# 
+# Value of A: 1001  B= 0110  
+#  Y= 1010 Golden_ref=1111 
+# 
+# Value of A: 1010  B= 0110  
+#  Y= 1011 Golden_ref=1100 
+# 
+# Value of A: 1011  B= 0110  
+#  Y= 1000 Golden_ref=1101 
+# 
+# Value of A: 1100  B= 0110  
+#  Y= 1001 Golden_ref=1010 
+# 
+# Value of A: 1101  B= 0110  
+#  Y= 1010 Golden_ref=1011 
+# 
+# Value of A: 1110  B= 0110  
+#  Y= 1011 Golden_ref=1000 
+# 
+# Value of A: 1111  B= 0110  
+#  Y= 1000 Golden_ref=1001 
+# 
+# Value of A: 0000  B= 0111  
+#  Y= 1001 Golden_ref=0111 
+# 
+# Value of A: 0001  B= 0111  
+#  Y= 0011 Golden_ref=0110 
+# 
+# Value of A: 0010  B= 0111  
+#  Y= 0010 Golden_ref=0101 
+# 
+# Value of A: 0011  B= 0111  
+#  Y= 0001 Golden_ref=0100 
+# 
+# Value of A: 0100  B= 0111  
+#  Y= 0000 Golden_ref=0011 
+# 
+# Value of A: 0101  B= 0111  
+#  Y= 0011 Golden_ref=0010 
+# 
+# Value of A: 0110  B= 0111  
+#  Y= 0010 Golden_ref=0001 
+# 
+# Value of A: 0111  B= 0111  
+#  Y= 0001 Golden_ref=0000 
+# 
+# Value of A: 1000  B= 0111  
+#  Y= 0000 Golden_ref=1111 
+# 
+# Value of A: 1001  B= 0111  
+#  Y= 1011 Golden_ref=1110 
+# 
+# Value of A: 1010  B= 0111  
+#  Y= 1010 Golden_ref=1101 
+# 
+# Value of A: 1011  B= 0111  
+#  Y= 1001 Golden_ref=1100 
+# 
+# Value of A: 1100  B= 0111  
+#  Y= 1000 Golden_ref=1011 
+# 
+# Value of A: 1101  B= 0111  
+#  Y= 1011 Golden_ref=1010 
+# 
+# Value of A: 1110  B= 0111  
+#  Y= 1010 Golden_ref=1001 
+# 
+# Value of A: 1111  B= 0111  
+#  Y= 1001 Golden_ref=1000 
+# 
+# Value of A: 0000  B= 1000  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0001  B= 1000  
+#  Y= 1000 Golden_ref=1001 
+# 
+# Value of A: 0010  B= 1000  
+#  Y= 1001 Golden_ref=1010 
+# 
+# Value of A: 0011  B= 1000  
+#  Y= 1010 Golden_ref=1011 
+# 
+# Value of A: 0100  B= 1000  
+#  Y= 1011 Golden_ref=1100 
+# 
+# Value of A: 0101  B= 1000  
+#  Y= 1000 Golden_ref=1101 
+# 
+# Value of A: 0110  B= 1000  
+#  Y= 1001 Golden_ref=1110 
+# 
+# Value of A: 0111  B= 1000  
+#  Y= 1010 Golden_ref=1111 
+# 
+# Value of A: 1000  B= 1000  
+#  Y= 1011 Golden_ref=0000 
+# 
+# Value of A: 1001  B= 1000  
+#  Y= 0000 Golden_ref=0001 
+# 
+# Value of A: 1010  B= 1000  
+#  Y= 0001 Golden_ref=0010 
+# 
+# Value of A: 1011  B= 1000  
+#  Y= 0010 Golden_ref=0011 
+# 
+# Value of A: 1100  B= 1000  
+#  Y= 0011 Golden_ref=0100 
+# 
+# Value of A: 1101  B= 1000  
+#  Y= 0000 Golden_ref=0101 
+# 
+# Value of A: 1110  B= 1000  
+#  Y= 0001 Golden_ref=0110 
+# 
+# Value of A: 1111  B= 1000  
+#  Y= 0010 Golden_ref=0111 
+# 
+# Value of A: 0000  B= 1001  
+#  Y= 0011 Golden_ref=1001 
+# 
+# Value of A: 0001  B= 1001  
+#  Y= 1001 Golden_ref=1000 
+# 
+# Value of A: 0010  B= 1001  
+#  Y= 1000 Golden_ref=1011 
+# 
+# Value of A: 0011  B= 1001  
+#  Y= 1011 Golden_ref=1010 
+# 
+# Value of A: 0100  B= 1001  
+#  Y= 1010 Golden_ref=1101 
+# 
+# Value of A: 0101  B= 1001  
+#  Y= 1001 Golden_ref=1100 
+# 
+# Value of A: 0110  B= 1001  
+#  Y= 1000 Golden_ref=1111 
+# 
+# Value of A: 0111  B= 1001  
+#  Y= 1011 Golden_ref=1110 
+# 
+# Value of A: 1000  B= 1001  
+#  Y= 1010 Golden_ref=0001 
+# 
+# Value of A: 1001  B= 1001  
+#  Y= 0001 Golden_ref=0000 
+# 
+# Value of A: 1010  B= 1001  
+#  Y= 0000 Golden_ref=0011 
+# 
+# Value of A: 1011  B= 1001  
+#  Y= 0011 Golden_ref=0010 
+# 
+# Value of A: 1100  B= 1001  
+#  Y= 0010 Golden_ref=0101 
+# 
+# Value of A: 1101  B= 1001  
+#  Y= 0001 Golden_ref=0100 
+# 
+# Value of A: 1110  B= 1001  
+#  Y= 0000 Golden_ref=0111 
+# 
+# Value of A: 1111  B= 1001  
+#  Y= 0011 Golden_ref=0110 
+# 
+# Value of A: 0000  B= 1010  
+#  Y= 0010 Golden_ref=1010 
+# 
+# Value of A: 0001  B= 1010  
+#  Y= 1010 Golden_ref=1011 
+# 
+# Value of A: 0010  B= 1010  
+#  Y= 1011 Golden_ref=1000 
+# 
+# Value of A: 0011  B= 1010  
+#  Y= 1000 Golden_ref=1001 
+# 
+# Value of A: 0100  B= 1010  
+#  Y= 1001 Golden_ref=1110 
+# 
+# Value of A: 0101  B= 1010  
+#  Y= 1010 Golden_ref=1111 
+# 
+# Value of A: 0110  B= 1010  
+#  Y= 1011 Golden_ref=1100 
+# 
+# Value of A: 0111  B= 1010  
+#  Y= 1000 Golden_ref=1101 
+# 
+# Value of A: 1000  B= 1010  
+#  Y= 1001 Golden_ref=0010 
+# 
+# Value of A: 1001  B= 1010  
+#  Y= 0010 Golden_ref=0011 
+# 
+# Value of A: 1010  B= 1010  
+#  Y= 0011 Golden_ref=0000 
+# 
+# Value of A: 1011  B= 1010  
+#  Y= 0000 Golden_ref=0001 
+# 
+# Value of A: 1100  B= 1010  
+#  Y= 0001 Golden_ref=0110 
+# 
+# Value of A: 1101  B= 1010  
+#  Y= 0010 Golden_ref=0111 
+# 
+# Value of A: 1110  B= 1010  
+#  Y= 0011 Golden_ref=0100 
+# 
+# Value of A: 1111  B= 1010  
+#  Y= 0000 Golden_ref=0101 
+# 
+# Value of A: 0000  B= 1011  
+#  Y= 0001 Golden_ref=1011 
+# 
+# Value of A: 0001  B= 1011  
+#  Y= 1011 Golden_ref=1010 
+# 
+# Value of A: 0010  B= 1011  
+#  Y= 1010 Golden_ref=1001 
+# 
+# Value of A: 0011  B= 1011  
+#  Y= 1001 Golden_ref=1000 
+# 
+# Value of A: 0100  B= 1011  
+#  Y= 1000 Golden_ref=1111 
+# 
+# Value of A: 0101  B= 1011  
+#  Y= 1011 Golden_ref=1110 
+# 
+# Value of A: 0110  B= 1011  
+#  Y= 1010 Golden_ref=1101 
+# 
+# Value of A: 0111  B= 1011  
+#  Y= 1001 Golden_ref=1100 
+# 
+# Value of A: 1000  B= 1011  
+#  Y= 1000 Golden_ref=0011 
+# 
+# Value of A: 1001  B= 1011  
+#  Y= 0011 Golden_ref=0010 
+# 
+# Value of A: 1010  B= 1011  
+#  Y= 0010 Golden_ref=0001 
+# 
+# Value of A: 1011  B= 1011  
+#  Y= 0001 Golden_ref=0000 
+# 
+# Value of A: 1100  B= 1011  
+#  Y= 0000 Golden_ref=0111 
+# 
+# Value of A: 1101  B= 1011  
+#  Y= 0011 Golden_ref=0110 
+# 
+# Value of A: 1110  B= 1011  
+#  Y= 0010 Golden_ref=0101 
+# 
+# Value of A: 1111  B= 1011  
+#  Y= 0001 Golden_ref=0100 
+# 
+# Value of A: 0000  B= 1100  
+#  Y= 0000 Golden_ref=1100 
+# 
+# Value of A: 0001  B= 1100  
+#  Y= 1000 Golden_ref=1101 
+# 
+# Value of A: 0010  B= 1100  
+#  Y= 1001 Golden_ref=1110 
+# 
+# Value of A: 0011  B= 1100  
+#  Y= 1010 Golden_ref=1111 
+# 
+# Value of A: 0100  B= 1100  
+#  Y= 1011 Golden_ref=1000 
+# 
+# Value of A: 0101  B= 1100  
+#  Y= 1000 Golden_ref=1001 
+# 
+# Value of A: 0110  B= 1100  
+#  Y= 1001 Golden_ref=1010 
+# 
+# Value of A: 0111  B= 1100  
+#  Y= 1010 Golden_ref=1011 
+# 
+# Value of A: 1000  B= 1100  
+#  Y= 1011 Golden_ref=0100 
+# 
+# Value of A: 1001  B= 1100  
+#  Y= 0000 Golden_ref=0101 
+# 
+# Value of A: 1010  B= 1100  
+#  Y= 0001 Golden_ref=0110 
+# 
+# Value of A: 1011  B= 1100  
+#  Y= 0010 Golden_ref=0111 
+# 
+# Value of A: 1100  B= 1100  
+#  Y= 0011 Golden_ref=0000 
+# 
+# Value of A: 1101  B= 1100  
+#  Y= 0000 Golden_ref=0001 
+# 
+# Value of A: 1110  B= 1100  
+#  Y= 0001 Golden_ref=0010 
+# 
+# Value of A: 1111  B= 1100  
+#  Y= 0010 Golden_ref=0011 
+# 
+# Value of A: 0000  B= 1101  
+#  Y= 0011 Golden_ref=1101 
+# 
+# Value of A: 0001  B= 1101  
+#  Y= 1001 Golden_ref=1100 
+# 
+# Value of A: 0010  B= 1101  
+#  Y= 1000 Golden_ref=1111 
+# 
+# Value of A: 0011  B= 1101  
+#  Y= 1011 Golden_ref=1110 
+# 
+# Value of A: 0100  B= 1101  
+#  Y= 1010 Golden_ref=1001 
+# 
+# Value of A: 0101  B= 1101  
+#  Y= 1001 Golden_ref=1000 
+# 
+# Value of A: 0110  B= 1101  
+#  Y= 1000 Golden_ref=1011 
+# 
+# Value of A: 0111  B= 1101  
+#  Y= 1011 Golden_ref=1010 
+# 
+# Value of A: 1000  B= 1101  
+#  Y= 1010 Golden_ref=0101 
+# 
+# Value of A: 1001  B= 1101  
+#  Y= 0001 Golden_ref=0100 
+# 
+# Value of A: 1010  B= 1101  
+#  Y= 0000 Golden_ref=0111 
+# 
+# Value of A: 1011  B= 1101  
+#  Y= 0011 Golden_ref=0110 
+# 
+# Value of A: 1100  B= 1101  
+#  Y= 0010 Golden_ref=0001 
+# 
+# Value of A: 1101  B= 1101  
+#  Y= 0001 Golden_ref=0000 
+# 
+# Value of A: 1110  B= 1101  
+#  Y= 0000 Golden_ref=0011 
+# 
+# Value of A: 1111  B= 1101  
+#  Y= 0011 Golden_ref=0010 
+# 
+# Value of A: 0000  B= 1110  
+#  Y= 0010 Golden_ref=1110 
+# 
+# Value of A: 0001  B= 1110  
+#  Y= 1010 Golden_ref=1111 
+# 
+# Value of A: 0010  B= 1110  
+#  Y= 1011 Golden_ref=1100 
+# 
+# Value of A: 0011  B= 1110  
+#  Y= 1000 Golden_ref=1101 
+# 
+# Value of A: 0100  B= 1110  
+#  Y= 1001 Golden_ref=1010 
+# 
+# Value of A: 0101  B= 1110  
+#  Y= 1010 Golden_ref=1011 
+# 
+# Value of A: 0110  B= 1110  
+#  Y= 1011 Golden_ref=1000 
+# 
+# Value of A: 0111  B= 1110  
+#  Y= 1000 Golden_ref=1001 
+# 
+# Value of A: 1000  B= 1110  
+#  Y= 1001 Golden_ref=0110 
+# 
+# Value of A: 1001  B= 1110  
+#  Y= 0010 Golden_ref=0111 
+# 
+# Value of A: 1010  B= 1110  
+#  Y= 0011 Golden_ref=0100 
+# 
+# Value of A: 1011  B= 1110  
+#  Y= 0000 Golden_ref=0101 
+# 
+# Value of A: 1100  B= 1110  
+#  Y= 0001 Golden_ref=0010 
+# 
+# Value of A: 1101  B= 1110  
+#  Y= 0010 Golden_ref=0011 
+# 
+# Value of A: 1110  B= 1110  
+#  Y= 0011 Golden_ref=0000 
+# 
+# Value of A: 1111  B= 1110  
+#  Y= 0000 Golden_ref=0001 
+# 
+# Value of A: 0000  B= 1111  
+#  Y= 0001 Golden_ref=1111 
+# 
+# Value of A: 0001  B= 1111  
+#  Y= 1011 Golden_ref=1110 
+# 
+# Value of A: 0010  B= 1111  
+#  Y= 1010 Golden_ref=1101 
+# 
+# Value of A: 0011  B= 1111  
+#  Y= 1001 Golden_ref=1100 
+# 
+# Value of A: 0100  B= 1111  
+#  Y= 1000 Golden_ref=1011 
+# 
+# Value of A: 0101  B= 1111  
+#  Y= 1011 Golden_ref=1010 
+# 
+# Value of A: 0110  B= 1111  
+#  Y= 1010 Golden_ref=1001 
+# 
+# Value of A: 0111  B= 1111  
+#  Y= 1001 Golden_ref=1000 
+# 
+# Value of A: 1000  B= 1111  
+#  Y= 1000 Golden_ref=0111 
+# 
+# Value of A: 1001  B= 1111  
+#  Y= 0011 Golden_ref=0110 
+# 
+# Value of A: 1010  B= 1111  
+#  Y= 0010 Golden_ref=0101 
+# 
+# Value of A: 1011  B= 1111  
+#  Y= 0001 Golden_ref=0100 
+# 
+# Value of A: 1100  B= 1111  
+#  Y= 0000 Golden_ref=0011 
+# 
+# Value of A: 1101  B= 1111  
+#  Y= 0011 Golden_ref=0010 
+# 
+# Value of A: 1110  B= 1111  
+#  Y= 0010 Golden_ref=0001 
+# 
+# Value of A: 1111  B= 1111  
+#  Y= 0001 Golden_ref=0000 
+# 
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+# vsim -novopt test_xor 
+# Loading sv_std.std
+# Loading work.test_xor
+# Loading work.xor_design
+# Value of A: 0000  B= 0000  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0001  B= 0000  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0010  B= 0000  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0011  B= 0000  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0100  B= 0000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0101  B= 0000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0110  B= 0000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0111  B= 0000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1000  B= 0000  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1001  B= 0000  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1010  B= 0000  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1011  B= 0000  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1100  B= 0000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1101  B= 0000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1110  B= 0000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1111  B= 0000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0000  B= 0001  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0001  B= 0001  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0010  B= 0001  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0011  B= 0001  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0100  B= 0001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0101  B= 0001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0110  B= 0001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0111  B= 0001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1000  B= 0001  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1001  B= 0001  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1010  B= 0001  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1011  B= 0001  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1100  B= 0001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1101  B= 0001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1110  B= 0001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1111  B= 0001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0000  B= 0010  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0001  B= 0010  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0010  B= 0010  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0011  B= 0010  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0100  B= 0010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0101  B= 0010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0110  B= 0010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0111  B= 0010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1000  B= 0010  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1001  B= 0010  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1010  B= 0010  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1011  B= 0010  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1100  B= 0010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1101  B= 0010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1110  B= 0010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1111  B= 0010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0000  B= 0011  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0001  B= 0011  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0010  B= 0011  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0011  B= 0011  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0100  B= 0011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0101  B= 0011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0110  B= 0011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0111  B= 0011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1000  B= 0011  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1001  B= 0011  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1010  B= 0011  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1011  B= 0011  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1100  B= 0011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1101  B= 0011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1110  B= 0011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1111  B= 0011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0000  B= 0100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0001  B= 0100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0010  B= 0100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0011  B= 0100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0100  B= 0100  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0101  B= 0100  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0110  B= 0100  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0111  B= 0100  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1000  B= 0100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1001  B= 0100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1010  B= 0100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1011  B= 0100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1100  B= 0100  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1101  B= 0100  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1110  B= 0100  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1111  B= 0100  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0000  B= 0101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0001  B= 0101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0010  B= 0101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0011  B= 0101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0100  B= 0101  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0101  B= 0101  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0110  B= 0101  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0111  B= 0101  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1000  B= 0101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1001  B= 0101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1010  B= 0101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1011  B= 0101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1100  B= 0101  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1101  B= 0101  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1110  B= 0101  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1111  B= 0101  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0000  B= 0110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0001  B= 0110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0010  B= 0110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0011  B= 0110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0100  B= 0110  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0101  B= 0110  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0110  B= 0110  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0111  B= 0110  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1000  B= 0110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1001  B= 0110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1010  B= 0110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1011  B= 0110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1100  B= 0110  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1101  B= 0110  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1110  B= 0110  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1111  B= 0110  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0000  B= 0111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0001  B= 0111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0010  B= 0111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0011  B= 0111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0100  B= 0111  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0101  B= 0111  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0110  B= 0111  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0111  B= 0111  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1000  B= 0111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1001  B= 0111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1010  B= 0111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1011  B= 0111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1100  B= 0111  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1101  B= 0111  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1110  B= 0111  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1111  B= 0111  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0000  B= 1000  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0001  B= 1000  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0010  B= 1000  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0011  B= 1000  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0100  B= 1000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0101  B= 1000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0110  B= 1000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0111  B= 1000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1000  B= 1000  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1001  B= 1000  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1010  B= 1000  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1011  B= 1000  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1100  B= 1000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1101  B= 1000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1110  B= 1000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1111  B= 1000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0000  B= 1001  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0001  B= 1001  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0010  B= 1001  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0011  B= 1001  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0100  B= 1001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0101  B= 1001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0110  B= 1001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0111  B= 1001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1000  B= 1001  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1001  B= 1001  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1010  B= 1001  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1011  B= 1001  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1100  B= 1001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1101  B= 1001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1110  B= 1001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1111  B= 1001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0000  B= 1010  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0001  B= 1010  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0010  B= 1010  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0011  B= 1010  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0100  B= 1010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0101  B= 1010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0110  B= 1010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0111  B= 1010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1000  B= 1010  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1001  B= 1010  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1010  B= 1010  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1011  B= 1010  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1100  B= 1010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1101  B= 1010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1110  B= 1010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1111  B= 1010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0000  B= 1011  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0001  B= 1011  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0010  B= 1011  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0011  B= 1011  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0100  B= 1011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0101  B= 1011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0110  B= 1011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0111  B= 1011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1000  B= 1011  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1001  B= 1011  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1010  B= 1011  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1011  B= 1011  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1100  B= 1011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1101  B= 1011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1110  B= 1011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1111  B= 1011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0000  B= 1100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0001  B= 1100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0010  B= 1100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0011  B= 1100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0100  B= 1100  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0101  B= 1100  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0110  B= 1100  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0111  B= 1100  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1000  B= 1100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1001  B= 1100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1010  B= 1100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1011  B= 1100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1100  B= 1100  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1101  B= 1100  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1110  B= 1100  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1111  B= 1100  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0000  B= 1101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0001  B= 1101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0010  B= 1101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0011  B= 1101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0100  B= 1101  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0101  B= 1101  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0110  B= 1101  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0111  B= 1101  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1000  B= 1101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1001  B= 1101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1010  B= 1101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1011  B= 1101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1100  B= 1101  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1101  B= 1101  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1110  B= 1101  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1111  B= 1101  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0000  B= 1110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0001  B= 1110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0010  B= 1110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0011  B= 1110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0100  B= 1110  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0101  B= 1110  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0110  B= 1110  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0111  B= 1110  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1000  B= 1110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1001  B= 1110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1010  B= 1110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1011  B= 1110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1100  B= 1110  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1101  B= 1110  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1110  B= 1110  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1111  B= 1110  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0000  B= 1111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0001  B= 1111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0010  B= 1111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0011  B= 1111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0100  B= 1111  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0101  B= 1111  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0110  B= 1111  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0111  B= 1111  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1000  B= 1111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1001  B= 1111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1010  B= 1111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1011  B= 1111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1100  B= 1111  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1101  B= 1111  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1110  B= 1111  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1111  B= 1111  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+# vsim -novopt test_xor 
+# Loading sv_std.std
+# Loading work.test_xor
+# Loading work.xor_design
+# Value of A: 0100  B= 0000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0101  B= 0000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0110  B= 0000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0111  B= 0000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1100  B= 0000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1101  B= 0000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1110  B= 0000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1111  B= 0000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0100  B= 0001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0101  B= 0001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0110  B= 0001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0111  B= 0001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1100  B= 0001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1101  B= 0001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1110  B= 0001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1111  B= 0001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0100  B= 0010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0101  B= 0010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0110  B= 0010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0111  B= 0010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1100  B= 0010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1101  B= 0010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1110  B= 0010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1111  B= 0010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0100  B= 0011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0101  B= 0011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0110  B= 0011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0111  B= 0011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1100  B= 0011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1101  B= 0011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1110  B= 0011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1111  B= 0011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0000  B= 0100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0001  B= 0100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0010  B= 0100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0011  B= 0100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1000  B= 0100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1001  B= 0100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1010  B= 0100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1011  B= 0100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0000  B= 0101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0001  B= 0101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0010  B= 0101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0011  B= 0101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1000  B= 0101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1001  B= 0101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1010  B= 0101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1011  B= 0101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0000  B= 0110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0001  B= 0110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0010  B= 0110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0011  B= 0110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1000  B= 0110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1001  B= 0110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1010  B= 0110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1011  B= 0110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0000  B= 0111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0001  B= 0111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0010  B= 0111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0011  B= 0111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1000  B= 0111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1001  B= 0111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1010  B= 0111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1011  B= 0111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0100  B= 1000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0101  B= 1000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0110  B= 1000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0111  B= 1000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1100  B= 1000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1101  B= 1000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1110  B= 1000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1111  B= 1000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0100  B= 1001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0101  B= 1001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0110  B= 1001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0111  B= 1001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1100  B= 1001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1101  B= 1001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1110  B= 1001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1111  B= 1001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0100  B= 1010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0101  B= 1010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0110  B= 1010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0111  B= 1010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1100  B= 1010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1101  B= 1010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1110  B= 1010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1111  B= 1010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0100  B= 1011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0101  B= 1011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0110  B= 1011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0111  B= 1011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1100  B= 1011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1101  B= 1011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1110  B= 1011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1111  B= 1011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0000  B= 1100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0001  B= 1100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0010  B= 1100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0011  B= 1100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1000  B= 1100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1001  B= 1100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1010  B= 1100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1011  B= 1100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0000  B= 1101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0001  B= 1101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0010  B= 1101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0011  B= 1101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1000  B= 1101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1001  B= 1101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1010  B= 1101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1011  B= 1101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0000  B= 1110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0001  B= 1110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0010  B= 1110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0011  B= 1110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1000  B= 1110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1001  B= 1110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1010  B= 1110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1011  B= 1110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0000  B= 1111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0001  B= 1111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0010  B= 1111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0011  B= 1111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1000  B= 1111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1001  B= 1111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1010  B= 1111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1011  B= 1111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+# vsim -novopt test_xor 
+# Loading sv_std.std
+# Loading work.test_xor
+# Loading work.xor_design
+# Value of A: 0000  B= 0000  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 0001  B= 0000  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 0010  B= 0000  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 0011  B= 0000  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 0100  B= 0000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0101  B= 0000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0110  B= 0000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0111  B= 0000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1000  B= 0000  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 1001  B= 0000  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 1010  B= 0000  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 1011  B= 0000  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 1100  B= 0000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1101  B= 0000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1110  B= 0000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1111  B= 0000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0000  B= 0001  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 0001  B= 0001  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 0010  B= 0001  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 0011  B= 0001  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 0100  B= 0001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0101  B= 0001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0110  B= 0001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0111  B= 0001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1000  B= 0001  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 1001  B= 0001  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 1010  B= 0001  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 1011  B= 0001  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 1100  B= 0001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1101  B= 0001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1110  B= 0001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1111  B= 0001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0000  B= 0010  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 0001  B= 0010  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 0010  B= 0010  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 0011  B= 0010  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 0100  B= 0010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0101  B= 0010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0110  B= 0010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0111  B= 0010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1000  B= 0010  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 1001  B= 0010  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 1010  B= 0010  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 1011  B= 0010  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 1100  B= 0010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1101  B= 0010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1110  B= 0010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1111  B= 0010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0000  B= 0011  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 0001  B= 0011  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 0010  B= 0011  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 0011  B= 0011  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 0100  B= 0011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0101  B= 0011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0110  B= 0011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0111  B= 0011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1000  B= 0011  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 1001  B= 0011  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 1010  B= 0011  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 1011  B= 0011  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 1100  B= 0011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1101  B= 0011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1110  B= 0011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1111  B= 0011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0000  B= 0100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0001  B= 0100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0010  B= 0100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0011  B= 0100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0100  B= 0100  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 0101  B= 0100  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 0110  B= 0100  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 0111  B= 0100  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 1000  B= 0100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1001  B= 0100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1010  B= 0100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1011  B= 0100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1100  B= 0100  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 1101  B= 0100  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 1110  B= 0100  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 1111  B= 0100  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 0000  B= 0101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0001  B= 0101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0010  B= 0101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0011  B= 0101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0100  B= 0101  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 0101  B= 0101  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 0110  B= 0101  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 0111  B= 0101  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 1000  B= 0101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1001  B= 0101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1010  B= 0101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1011  B= 0101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1100  B= 0101  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 1101  B= 0101  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 1110  B= 0101  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 1111  B= 0101  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 0000  B= 0110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0001  B= 0110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0010  B= 0110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0011  B= 0110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0100  B= 0110  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 0101  B= 0110  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 0110  B= 0110  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 0111  B= 0110  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 1000  B= 0110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1001  B= 0110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1010  B= 0110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1011  B= 0110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1100  B= 0110  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 1101  B= 0110  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 1110  B= 0110  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 1111  B= 0110  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 0000  B= 0111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0001  B= 0111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0010  B= 0111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0011  B= 0111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0100  B= 0111  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 0101  B= 0111  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 0110  B= 0111  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 0111  B= 0111  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 1000  B= 0111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1001  B= 0111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1010  B= 0111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1011  B= 0111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1100  B= 0111  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 1101  B= 0111  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 1110  B= 0111  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 1111  B= 0111  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 0000  B= 1000  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 0001  B= 1000  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 0010  B= 1000  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 0011  B= 1000  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 0100  B= 1000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0101  B= 1000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0110  B= 1000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0111  B= 1000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1000  B= 1000  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 1001  B= 1000  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 1010  B= 1000  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 1011  B= 1000  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 1100  B= 1000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1101  B= 1000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1110  B= 1000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1111  B= 1000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0000  B= 1001  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 0001  B= 1001  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 0010  B= 1001  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 0011  B= 1001  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 0100  B= 1001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0101  B= 1001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0110  B= 1001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0111  B= 1001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1000  B= 1001  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 1001  B= 1001  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 1010  B= 1001  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 1011  B= 1001  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 1100  B= 1001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1101  B= 1001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1110  B= 1001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1111  B= 1001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0000  B= 1010  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 0001  B= 1010  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 0010  B= 1010  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 0011  B= 1010  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 0100  B= 1010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0101  B= 1010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0110  B= 1010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0111  B= 1010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1000  B= 1010  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 1001  B= 1010  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 1010  B= 1010  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 1011  B= 1010  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 1100  B= 1010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1101  B= 1010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1110  B= 1010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1111  B= 1010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0000  B= 1011  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 0001  B= 1011  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 0010  B= 1011  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 0011  B= 1011  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 0100  B= 1011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0101  B= 1011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0110  B= 1011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0111  B= 1011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1000  B= 1011  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 1001  B= 1011  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 1010  B= 1011  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 1011  B= 1011  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 1100  B= 1011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1101  B= 1011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1110  B= 1011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1111  B= 1011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0000  B= 1100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0001  B= 1100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0010  B= 1100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0011  B= 1100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0100  B= 1100  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 0101  B= 1100  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 0110  B= 1100  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 0111  B= 1100  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 1000  B= 1100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1001  B= 1100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1010  B= 1100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1011  B= 1100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1100  B= 1100  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 1101  B= 1100  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 1110  B= 1100  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 1111  B= 1100  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 0000  B= 1101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0001  B= 1101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0010  B= 1101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0011  B= 1101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0100  B= 1101  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 0101  B= 1101  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 0110  B= 1101  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 0111  B= 1101  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 1000  B= 1101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1001  B= 1101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1010  B= 1101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1011  B= 1101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1100  B= 1101  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 1101  B= 1101  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 1110  B= 1101  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 1111  B= 1101  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 0000  B= 1110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0001  B= 1110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0010  B= 1110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0011  B= 1110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0100  B= 1110  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 0101  B= 1110  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 0110  B= 1110  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 0111  B= 1110  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 1000  B= 1110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1001  B= 1110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1010  B= 1110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1011  B= 1110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1100  B= 1110  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 1101  B= 1110  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 1110  B= 1110  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Value of A: 1111  B= 1110  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 0000  B= 1111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0001  B= 1111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0010  B= 1111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0011  B= 1111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0100  B= 1111  
+#  Y= 1011 Golden_ref=1011 
+# 
+# --
+# 
+# Value of A: 0101  B= 1111  
+#  Y= 1010 Golden_ref=1010 
+# 
+# --
+# 
+# Value of A: 0110  B= 1111  
+#  Y= 1001 Golden_ref=1001 
+# 
+# --
+# 
+# Value of A: 0111  B= 1111  
+#  Y= 1000 Golden_ref=1000 
+# 
+# --
+# 
+# Value of A: 1000  B= 1111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1001  B= 1111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1010  B= 1111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1011  B= 1111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1100  B= 1111  
+#  Y= 0011 Golden_ref=0011 
+# 
+# --
+# 
+# Value of A: 1101  B= 1111  
+#  Y= 0010 Golden_ref=0010 
+# 
+# --
+# 
+# Value of A: 1110  B= 1111  
+#  Y= 0001 Golden_ref=0001 
+# 
+# --
+# 
+# Value of A: 1111  B= 1111  
+#  Y= 0000 Golden_ref=0000 
+# 
+# --
+# 
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+# vsim -novopt test_xor 
+# Loading sv_std.std
+# Loading work.test_xor
+# Loading work.xor_design
+# Value of A: 0000  B= 0000  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0001  B= 0000  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0010  B= 0000  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0011  B= 0000  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0100  B= 0000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0101  B= 0000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0110  B= 0000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0111  B= 0000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1000  B= 0000  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1001  B= 0000  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1010  B= 0000  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1011  B= 0000  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1100  B= 0000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1101  B= 0000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1110  B= 0000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1111  B= 0000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0000  B= 0001  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0001  B= 0001  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0010  B= 0001  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0011  B= 0001  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0100  B= 0001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0101  B= 0001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0110  B= 0001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0111  B= 0001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1000  B= 0001  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1001  B= 0001  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1010  B= 0001  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1011  B= 0001  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1100  B= 0001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1101  B= 0001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1110  B= 0001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1111  B= 0001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0000  B= 0010  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0001  B= 0010  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0010  B= 0010  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0011  B= 0010  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0100  B= 0010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0101  B= 0010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0110  B= 0010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0111  B= 0010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1000  B= 0010  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1001  B= 0010  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1010  B= 0010  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1011  B= 0010  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1100  B= 0010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1101  B= 0010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1110  B= 0010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1111  B= 0010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0000  B= 0011  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0001  B= 0011  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0010  B= 0011  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0011  B= 0011  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0100  B= 0011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0101  B= 0011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0110  B= 0011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0111  B= 0011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1000  B= 0011  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1001  B= 0011  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1010  B= 0011  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1011  B= 0011  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1100  B= 0011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1101  B= 0011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1110  B= 0011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1111  B= 0011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0000  B= 0100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0001  B= 0100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0010  B= 0100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0011  B= 0100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0100  B= 0100  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0101  B= 0100  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0110  B= 0100  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0111  B= 0100  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1000  B= 0100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1001  B= 0100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1010  B= 0100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1011  B= 0100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1100  B= 0100  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1101  B= 0100  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1110  B= 0100  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1111  B= 0100  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0000  B= 0101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0001  B= 0101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0010  B= 0101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0011  B= 0101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0100  B= 0101  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0101  B= 0101  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0110  B= 0101  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0111  B= 0101  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1000  B= 0101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1001  B= 0101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1010  B= 0101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1011  B= 0101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1100  B= 0101  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1101  B= 0101  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1110  B= 0101  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1111  B= 0101  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0000  B= 0110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0001  B= 0110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0010  B= 0110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0011  B= 0110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0100  B= 0110  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0101  B= 0110  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0110  B= 0110  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0111  B= 0110  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1000  B= 0110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1001  B= 0110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1010  B= 0110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1011  B= 0110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1100  B= 0110  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1101  B= 0110  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1110  B= 0110  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1111  B= 0110  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0000  B= 0111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0001  B= 0111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0010  B= 0111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0011  B= 0111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0100  B= 0111  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0101  B= 0111  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0110  B= 0111  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0111  B= 0111  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1000  B= 0111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1001  B= 0111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1010  B= 0111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1011  B= 0111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1100  B= 0111  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1101  B= 0111  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1110  B= 0111  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1111  B= 0111  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0000  B= 1000  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0001  B= 1000  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0010  B= 1000  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0011  B= 1000  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0100  B= 1000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0101  B= 1000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0110  B= 1000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0111  B= 1000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 1000  B= 1000  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1001  B= 1000  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1010  B= 1000  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1011  B= 1000  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1100  B= 1000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1101  B= 1000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1110  B= 1000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1111  B= 1000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 0000  B= 1001  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0001  B= 1001  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0010  B= 1001  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0011  B= 1001  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0100  B= 1001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0101  B= 1001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0110  B= 1001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0111  B= 1001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 1000  B= 1001  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1001  B= 1001  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1010  B= 1001  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1011  B= 1001  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1100  B= 1001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1101  B= 1001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1110  B= 1001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1111  B= 1001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 0000  B= 1010  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0001  B= 1010  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0010  B= 1010  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0011  B= 1010  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0100  B= 1010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0101  B= 1010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0110  B= 1010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0111  B= 1010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 1000  B= 1010  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1001  B= 1010  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1010  B= 1010  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1011  B= 1010  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1100  B= 1010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1101  B= 1010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1110  B= 1010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1111  B= 1010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 0000  B= 1011  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0001  B= 1011  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0010  B= 1011  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0011  B= 1011  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0100  B= 1011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0101  B= 1011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0110  B= 1011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0111  B= 1011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 1000  B= 1011  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1001  B= 1011  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1010  B= 1011  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1011  B= 1011  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1100  B= 1011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1101  B= 1011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1110  B= 1011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1111  B= 1011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 0000  B= 1100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0001  B= 1100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0010  B= 1100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0011  B= 1100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0100  B= 1100  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0101  B= 1100  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0110  B= 1100  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0111  B= 1100  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1000  B= 1100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1001  B= 1100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1010  B= 1100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1011  B= 1100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1100  B= 1100  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1101  B= 1100  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1110  B= 1100  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1111  B= 1100  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0000  B= 1101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0001  B= 1101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0010  B= 1101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0011  B= 1101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0100  B= 1101  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0101  B= 1101  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0110  B= 1101  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0111  B= 1101  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1000  B= 1101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1001  B= 1101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1010  B= 1101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1011  B= 1101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1100  B= 1101  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1101  B= 1101  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1110  B= 1101  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1111  B= 1101  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0000  B= 1110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0001  B= 1110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0010  B= 1110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0011  B= 1110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0100  B= 1110  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0101  B= 1110  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0110  B= 1110  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0111  B= 1110  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1000  B= 1110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1001  B= 1110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1010  B= 1110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1011  B= 1110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1100  B= 1110  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1101  B= 1110  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1110  B= 1110  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1111  B= 1110  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0000  B= 1111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# --
+# 
+# Value of A: 0001  B= 1111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# --
+# 
+# Value of A: 0010  B= 1111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# --
+# 
+# Value of A: 0011  B= 1111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# --
+# 
+# Value of A: 0100  B= 1111  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0101  B= 1111  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0110  B= 1111  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0111  B= 1111  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1000  B= 1111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# --
+# 
+# Value of A: 1001  B= 1111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# --
+# 
+# Value of A: 1010  B= 1111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# --
+# 
+# Value of A: 1011  B= 1111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# --
+# 
+# Value of A: 1100  B= 1111  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1101  B= 1111  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1110  B= 1111  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1111  B= 1111  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+# vsim -novopt test_xor 
+# Loading sv_std.std
+# Loading work.test_xor
+# Loading work.xor_design
+# Value of A: 0000  B= 0000  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0001  B= 0000  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0010  B= 0000  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0011  B= 0000  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0100  B= 0000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0101  B= 0000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0110  B= 0000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0111  B= 0000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1000  B= 0000  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1001  B= 0000  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1010  B= 0000  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1011  B= 0000  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1100  B= 0000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1101  B= 0000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1110  B= 0000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1111  B= 0000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0000  B= 0001  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0001  B= 0001  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0010  B= 0001  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0011  B= 0001  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0100  B= 0001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0101  B= 0001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0110  B= 0001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0111  B= 0001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1000  B= 0001  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1001  B= 0001  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1010  B= 0001  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1011  B= 0001  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1100  B= 0001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1101  B= 0001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1110  B= 0001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1111  B= 0001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0000  B= 0010  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0001  B= 0010  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0010  B= 0010  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0011  B= 0010  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0100  B= 0010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0101  B= 0010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0110  B= 0010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0111  B= 0010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1000  B= 0010  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1001  B= 0010  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1010  B= 0010  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1011  B= 0010  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1100  B= 0010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1101  B= 0010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1110  B= 0010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1111  B= 0010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0000  B= 0011  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0001  B= 0011  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0010  B= 0011  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0011  B= 0011  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0100  B= 0011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0101  B= 0011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0110  B= 0011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0111  B= 0011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1000  B= 0011  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1001  B= 0011  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1010  B= 0011  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1011  B= 0011  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1100  B= 0011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1101  B= 0011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1110  B= 0011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1111  B= 0011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0000  B= 0100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0001  B= 0100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0010  B= 0100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0011  B= 0100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0100  B= 0100  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0101  B= 0100  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0110  B= 0100  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0111  B= 0100  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1000  B= 0100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1001  B= 0100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1010  B= 0100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1011  B= 0100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1100  B= 0100  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1101  B= 0100  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1110  B= 0100  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1111  B= 0100  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0000  B= 0101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0001  B= 0101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0010  B= 0101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0011  B= 0101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0100  B= 0101  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0101  B= 0101  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0110  B= 0101  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0111  B= 0101  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1000  B= 0101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1001  B= 0101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1010  B= 0101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1011  B= 0101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1100  B= 0101  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1101  B= 0101  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1110  B= 0101  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1111  B= 0101  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0000  B= 0110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0001  B= 0110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0010  B= 0110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0011  B= 0110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0100  B= 0110  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0101  B= 0110  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0110  B= 0110  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 0111  B= 0110  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1000  B= 0110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1001  B= 0110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1010  B= 0110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1011  B= 0110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1100  B= 0110  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1101  B= 0110  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1110  B= 0110  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1111  B= 0110  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0000  B= 0111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0001  B= 0111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0010  B= 0111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0011  B= 0111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0100  B= 0111  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0101  B= 0111  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0110  B= 0111  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0111  B= 0111  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1000  B= 0111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1001  B= 0111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1010  B= 0111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1011  B= 0111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1100  B= 0111  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1101  B= 0111  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1110  B= 0111  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1111  B= 0111  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0000  B= 1000  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0001  B= 1000  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0010  B= 1000  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0011  B= 1000  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0100  B= 1000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0101  B= 1000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0110  B= 1000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0111  B= 1000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 1000  B= 1000  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1001  B= 1000  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1010  B= 1000  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1011  B= 1000  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1100  B= 1000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1101  B= 1000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1110  B= 1000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1111  B= 1000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 0000  B= 1001  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0001  B= 1001  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0010  B= 1001  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0011  B= 1001  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0100  B= 1001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0101  B= 1001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0110  B= 1001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0111  B= 1001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 1000  B= 1001  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1001  B= 1001  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1010  B= 1001  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1011  B= 1001  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1100  B= 1001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1101  B= 1001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1110  B= 1001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1111  B= 1001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 0000  B= 1010  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0001  B= 1010  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0010  B= 1010  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0011  B= 1010  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0100  B= 1010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0101  B= 1010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0110  B= 1010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0111  B= 1010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 1000  B= 1010  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1001  B= 1010  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1010  B= 1010  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1011  B= 1010  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1100  B= 1010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1101  B= 1010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1110  B= 1010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1111  B= 1010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 0000  B= 1011  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0001  B= 1011  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0010  B= 1011  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0011  B= 1011  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0100  B= 1011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0101  B= 1011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0110  B= 1011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0111  B= 1011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 1000  B= 1011  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1001  B= 1011  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1010  B= 1011  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1011  B= 1011  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1100  B= 1011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1101  B= 1011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1110  B= 1011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1111  B= 1011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 0000  B= 1100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0001  B= 1100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0010  B= 1100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0011  B= 1100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0100  B= 1100  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0101  B= 1100  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0110  B= 1100  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0111  B= 1100  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 1000  B= 1100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1001  B= 1100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1010  B= 1100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1011  B= 1100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1100  B= 1100  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1101  B= 1100  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1110  B= 1100  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1111  B= 1100  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 0000  B= 1101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0001  B= 1101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0010  B= 1101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0011  B= 1101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0100  B= 1101  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0101  B= 1101  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0110  B= 1101  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0111  B= 1101  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 1000  B= 1101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1001  B= 1101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1010  B= 1101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1011  B= 1101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1100  B= 1101  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1101  B= 1101  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1110  B= 1101  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1111  B= 1101  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 0000  B= 1110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0001  B= 1110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0010  B= 1110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0011  B= 1110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0100  B= 1110  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0101  B= 1110  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0110  B= 1110  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 0111  B= 1110  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 1000  B= 1110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1001  B= 1110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1010  B= 1110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1011  B= 1110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1100  B= 1110  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1101  B= 1110  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1110  B= 1110  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Value of A: 1111  B= 1110  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 0000  B= 1111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# Value of A: 0001  B= 1111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# Value of A: 0010  B= 1111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# Value of A: 0011  B= 1111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# Value of A: 0100  B= 1111  
+#  Y= 1011 Golden_ref=1011 
+# 
+# Value of A: 0101  B= 1111  
+#  Y= 1010 Golden_ref=1010 
+# 
+# Value of A: 0110  B= 1111  
+#  Y= 1001 Golden_ref=1001 
+# 
+# Value of A: 0111  B= 1111  
+#  Y= 1000 Golden_ref=1000 
+# 
+# Value of A: 1000  B= 1111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# Value of A: 1001  B= 1111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# Value of A: 1010  B= 1111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# Value of A: 1011  B= 1111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# Value of A: 1100  B= 1111  
+#  Y= 0011 Golden_ref=0011 
+# 
+# Value of A: 1101  B= 1111  
+#  Y= 0010 Golden_ref=0010 
+# 
+# Value of A: 1110  B= 1111  
+#  Y= 0001 Golden_ref=0001 
+# 
+# Value of A: 1111  B= 1111  
+#  Y= 0000 Golden_ref=0000 
+# 
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+# vsim -novopt test_xor 
+# Loading sv_std.std
+# Loading work.test_xor
+# Loading work.xor_design
+# Value of A: 0000  B= 0000  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 0001  B= 0000  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 0010  B= 0000  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 0011  B= 0000  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 0100  B= 0000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 0101  B= 0000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 0110  B= 0000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 0111  B= 0000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 1000  B= 0000  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 1001  B= 0000  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 1010  B= 0000  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 1011  B= 0000  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 1100  B= 0000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 1101  B= 0000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 1110  B= 0000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 1111  B= 0000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 0000  B= 0001  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 0001  B= 0001  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 0010  B= 0001  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 0011  B= 0001  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 0100  B= 0001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 0101  B= 0001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 0110  B= 0001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 0111  B= 0001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 1000  B= 0001  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 1001  B= 0001  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 1010  B= 0001  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 1011  B= 0001  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 1100  B= 0001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 1101  B= 0001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 1110  B= 0001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 1111  B= 0001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 0000  B= 0010  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 0001  B= 0010  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 0010  B= 0010  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 0011  B= 0010  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 0100  B= 0010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 0101  B= 0010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 0110  B= 0010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 0111  B= 0010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 1000  B= 0010  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 1001  B= 0010  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 1010  B= 0010  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 1011  B= 0010  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 1100  B= 0010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 1101  B= 0010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 1110  B= 0010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 1111  B= 0010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 0000  B= 0011  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 0001  B= 0011  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 0010  B= 0011  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 0011  B= 0011  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 0100  B= 0011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 0101  B= 0011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 0110  B= 0011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 0111  B= 0011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 1000  B= 0011  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 1001  B= 0011  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 1010  B= 0011  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 1011  B= 0011  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 1100  B= 0011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 1101  B= 0011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 1110  B= 0011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 1111  B= 0011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 0000  B= 0100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 0001  B= 0100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 0010  B= 0100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 0011  B= 0100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 0100  B= 0100  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 0101  B= 0100  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 0110  B= 0100  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 0111  B= 0100  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 1000  B= 0100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 1001  B= 0100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 1010  B= 0100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 1011  B= 0100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 1100  B= 0100  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 1101  B= 0100  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 1110  B= 0100  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 1111  B= 0100  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 0000  B= 0101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 0001  B= 0101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 0010  B= 0101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 0011  B= 0101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 0100  B= 0101  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 0101  B= 0101  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 0110  B= 0101  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 0111  B= 0101  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 1000  B= 0101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 1001  B= 0101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 1010  B= 0101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 1011  B= 0101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 1100  B= 0101  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 1101  B= 0101  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 1110  B= 0101  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 1111  B= 0101  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 0000  B= 0110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 0001  B= 0110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 0010  B= 0110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 0011  B= 0110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 0100  B= 0110  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 0101  B= 0110  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 0110  B= 0110  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 0111  B= 0110  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 1000  B= 0110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 1001  B= 0110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 1010  B= 0110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 1011  B= 0110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 1100  B= 0110  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 1101  B= 0110  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 1110  B= 0110  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 1111  B= 0110  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 0000  B= 0111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 0001  B= 0111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 0010  B= 0111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 0011  B= 0111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 0100  B= 0111  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 0101  B= 0111  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 0110  B= 0111  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 0111  B= 0111  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 1000  B= 0111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 1001  B= 0111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 1010  B= 0111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 1011  B= 0111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 1100  B= 0111  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 1101  B= 0111  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 1110  B= 0111  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 1111  B= 0111  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 0000  B= 1000  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 0001  B= 1000  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 0010  B= 1000  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 0011  B= 1000  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 0100  B= 1000  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 0101  B= 1000  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 0110  B= 1000  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 0111  B= 1000  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 1000  B= 1000  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 1001  B= 1000  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 1010  B= 1000  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 1011  B= 1000  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 1100  B= 1000  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 1101  B= 1000  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 1110  B= 1000  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 1111  B= 1000  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 0000  B= 1001  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 0001  B= 1001  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 0010  B= 1001  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 0011  B= 1001  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 0100  B= 1001  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 0101  B= 1001  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 0110  B= 1001  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 0111  B= 1001  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 1000  B= 1001  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 1001  B= 1001  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 1010  B= 1001  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 1011  B= 1001  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 1100  B= 1001  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 1101  B= 1001  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 1110  B= 1001  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 1111  B= 1001  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 0000  B= 1010  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 0001  B= 1010  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 0010  B= 1010  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 0011  B= 1010  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 0100  B= 1010  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 0101  B= 1010  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 0110  B= 1010  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 0111  B= 1010  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 1000  B= 1010  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 1001  B= 1010  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 1010  B= 1010  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 1011  B= 1010  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 1100  B= 1010  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 1101  B= 1010  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 1110  B= 1010  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 1111  B= 1010  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 0000  B= 1011  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 0001  B= 1011  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 0010  B= 1011  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 0011  B= 1011  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 0100  B= 1011  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 0101  B= 1011  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 0110  B= 1011  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 0111  B= 1011  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 1000  B= 1011  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 1001  B= 1011  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 1010  B= 1011  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 1011  B= 1011  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 1100  B= 1011  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 1101  B= 1011  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 1110  B= 1011  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 1111  B= 1011  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 0000  B= 1100  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 0001  B= 1100  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 0010  B= 1100  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 0011  B= 1100  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 0100  B= 1100  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 0101  B= 1100  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 0110  B= 1100  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 0111  B= 1100  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 1000  B= 1100  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 1001  B= 1100  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 1010  B= 1100  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 1011  B= 1100  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 1100  B= 1100  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 1101  B= 1100  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 1110  B= 1100  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 1111  B= 1100  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 0000  B= 1101  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 0001  B= 1101  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 0010  B= 1101  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 0011  B= 1101  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 0100  B= 1101  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 0101  B= 1101  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 0110  B= 1101  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 0111  B= 1101  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 1000  B= 1101  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 1001  B= 1101  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 1010  B= 1101  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 1011  B= 1101  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 1100  B= 1101  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 1101  B= 1101  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 1110  B= 1101  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 1111  B= 1101  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 0000  B= 1110  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 0001  B= 1110  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 0010  B= 1110  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 0011  B= 1110  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 0100  B= 1110  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 0101  B= 1110  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 0110  B= 1110  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 0111  B= 1110  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 1000  B= 1110  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 1001  B= 1110  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 1010  B= 1110  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 1011  B= 1110  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 1100  B= 1110  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 1101  B= 1110  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 1110  B= 1110  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 
+# Value of A: 1111  B= 1110  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 0000  B= 1111  
+#  Y= 1011 Golden_ref=1111 
+# 
+# ade
+# 
+# Value of A: 0001  B= 1111  
+#  Y= 1010 Golden_ref=1110 
+# 
+# ade
+# 
+# Value of A: 0010  B= 1111  
+#  Y= 1001 Golden_ref=1101 
+# 
+# ade
+# 
+# Value of A: 0011  B= 1111  
+#  Y= 1000 Golden_ref=1100 
+# 
+# ade
+# 
+# Value of A: 0100  B= 1111  
+#  Y= 1011 Golden_ref=1011 
+# 
+# ade
+# 
+# Value of A: 0101  B= 1111  
+#  Y= 1010 Golden_ref=1010 
+# 
+# ade
+# 
+# Value of A: 0110  B= 1111  
+#  Y= 1001 Golden_ref=1001 
+# 
+# ade
+# 
+# Value of A: 0111  B= 1111  
+#  Y= 1000 Golden_ref=1000 
+# 
+# ade
+# 
+# Value of A: 1000  B= 1111  
+#  Y= 0011 Golden_ref=0111 
+# 
+# ade
+# 
+# Value of A: 1001  B= 1111  
+#  Y= 0010 Golden_ref=0110 
+# 
+# ade
+# 
+# Value of A: 1010  B= 1111  
+#  Y= 0001 Golden_ref=0101 
+# 
+# ade
+# 
+# Value of A: 1011  B= 1111  
+#  Y= 0000 Golden_ref=0100 
+# 
+# ade
+# 
+# Value of A: 1100  B= 1111  
+#  Y= 0011 Golden_ref=0011 
+# 
+# ade
+# 
+# Value of A: 1101  B= 1111  
+#  Y= 0010 Golden_ref=0010 
+# 
+# ade
+# 
+# Value of A: 1110  B= 1111  
+#  Y= 0001 Golden_ref=0001 
+# 
+# ade
+# 
+# Value of A: 1111  B= 1111  
+#  Y= 0000 Golden_ref=0000 
+# 
+# ade
+# 

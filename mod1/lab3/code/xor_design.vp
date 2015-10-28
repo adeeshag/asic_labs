@@ -1,0 +1,43 @@
+//********************************************************************                                        
+//  AUTHOR: Engineering Design Institute/ASIC Design and Verification	                                                     		
+//  DESCRIPTION: XOR                                         
+//  MODULE NAME: xor_design
+//********************************************************************
+ `timescale 10 ns / 1 ps
+
+ module xor_design( clk,
+					reset,
+					a,
+					b,
+					y);
+ input clk;
+ input reset;
+ input [3:0] a, b;
+ output reg [3:0]  y;
+ `pragma protect begin_protected
+`pragma protect version = 1
+`pragma protect encrypt_agent = "Model Technology", encrypt_agent_info = "10.0c"
+`pragma protect data_method = "aes128-cbc"
+`pragma protect key_keyowner = "Mentor Graphics Corporation" , key_keyname = "MGC-VERIF-SIM-RSA-1" , key_method = "rsa"
+`pragma protect key_block encoding = (enctype = "base64", line_length = 64, bytes = 128)
+bTBz/6Ojsbwk7IhmUhQYpRFxbvMVfqO0bo8+xqIHrb6frv2MYVWTeZnKjzLhE41p
+67vtabhzTH0zoFjdmn+I/zWmGz+YDLHlHVwvbv+qQ4aRqnXt+8EmtiodTxAmHv5g
+Dh4oxO2cpmYAqWbMOVmxb2Vopo0gKHK1zHObfqBCNzw=
+`pragma protect data_block encoding = (enctype = "base64", line_length = 64, bytes = 272)
+iChoJlSXELVWmvooAGLRQB20aVFEPpy0GMU5mUPw8aUO/kPUvZu4rGBlrnMAT11C
+BX4s5JA0nKto97uZEFxdY4YRNASzdRevSY7w1WkBuVJXR7sp1kqJPhDfH1QJO8Nj
+I4cIe7ISnEHf09aQbdmnwdvooyUPnX7WpnUysuvVx7WK74v7sPCKhNmRuaDkew0I
+aTq1+Jhr6Al1B92c5fCrFqVp1UGjpPklMDvkIIRfQljv2Jz71HDAS9gKiERIWvc8
+Rfgs7DZUxzWIMfpjulzQt56HjaZtph8jlOIVgZFjkhwC6an4IG3nw1HqgwTy+Rw9
+NpKJx3W+GMwVMAFr/Cycknpvm0uTEWwsHIHsTU8B7+k=
+`pragma protect end_protected
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,49 @@
+//********************************************************************                                        
+//  AUTHOR: Engineering Design Institute/ASIC Design and Verification	                                                     		
+//  DESCRIPTION: 2 Bit Arbiter                                         
+//  MODULE NAME: arbiter
+//********************************************************************
+ `timescale 10 ns / 1 ps
+
+ module arbiter( clk,
+				reset,
+				grant,
+				request);
+ input clk;
+ input reset;
+ input [1:0] request;
+output reg [1:0] grant;
+ 
+
+  `pragma protect begin_protected
+`pragma protect version = 1
+`pragma protect encrypt_agent = "Model Technology", encrypt_agent_info = "10.0c"
+`pragma protect data_method = "aes128-cbc"
+`pragma protect key_keyowner = "Mentor Graphics Corporation" , key_keyname = "MGC-VERIF-SIM-RSA-1" , key_method = "rsa"
+`pragma protect key_block encoding = (enctype = "base64", line_length = 64, bytes = 128)
+SrIaaeixv0BKVeAgdchFRgbwLClAzIoDb2HqMajfjsBOUX2fktf72vSOuM6srqqs
+pfOcw4snVD/cb/DdNq7K/Cc4GG9UigfgaFq0zDvz5zL3iX5il1AsIyH344dYUtqn
+TmRf2PfOKCE+yT6/uvGfWLUo/vuLFp6JkccWEuJtq2Q=
+`pragma protect data_block encoding = (enctype = "base64", line_length = 64, bytes = 560)
+4wyBZ0p+EYqEUguysIXgGypO7OaAxVUMwXE87nHvAODgQR52XFKfDJ+xt+51siBG
+LqwdtkKnUlrTAshD73504A5OG+Pb42zGmHvTy4uEH4L00u+/10vxuHuF4ulhRk1t
+bB2g1+QRSbB4oSffo5/5RdLEPodeoRCPU0ocoU41xmMDKXC0V5SKwB8ZevXhVKUw
+c/QZsJSDF1QN6dXgx4rQ4JFER9Hq7Uimsp49PEDKPJve+1OuA7q6fD2M5atXPNcV
+6IReagzxu5nCVSVttZgL0msCdKBVHdwK5LGwVOB8SiwBKy2QSd6DGvHzj9Mi6vz6
+9Ba6oNeBWiiVoAjsi/I+UqJ5/pSCFbJbPueD3mydEUBQneLv2R5hDZ2JeVQm7jg6
+XU1UYk7erZ35NZr86TaY1xXajD7Uea5AlchGhbj8N3zNxUYN8lslVFLwtjrMmuPF
+HoQfH50SvbG80nrFS3RljcsobgOthHqhpzWntIPFqzeUVvzPn1d21l14Pnzj9IGZ
+JGBbhJdtApGFsMNwVApbpg3OIwNuv6bpmvnBGV+r805Z+EncMbGkbFxO/TEaT8FQ
+gtVqD0OnO/wvWpZ0Y3pauFTxXDOG4TLpYfxxB8Suy/hCpu3wTnW99pI+i3cXzTr9
+DHvMXO81eIjy5W5QmctFvUsbyEXTtR/4sJEYW/Tw3/98tW6wpGDx3Wd1JWcTS14B
+XwMavRYsKzPU6CJ4Zu7/KhXrM6BgJd1vRwAorWC2GVg=
+`pragma protect end_protected
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 

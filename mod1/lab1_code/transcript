@@ -1,0 +1,70 @@
+# //  ModelSim SE 10.0c Jul 21 2011 Linux 2.6.32-573.3.1.el6.x86_64
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+#  
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+# vsim -novopt test_xor 
+# Loading sv_std.std
+# Loading work.test_xor
+# Loading work.xor_design
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# ** Error: test_xor_few_directed.sv(52): near "=": syntax error, unexpected '='
+# ** Error: /ncsu/modelsim10.0c/linux/vlog failed.
+# Error in macro ./compile.do line 4
+# /ncsu/modelsim10.0c/linux/vlog failed.
+#     while executing
+# "vlog -sv test_xor_few_directed.sv"
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# ** Error: test_xor_few_directed.sv(14): near "{": syntax error, unexpected '{', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /ncsu/modelsim10.0c/linux/vlog failed.
+# Error in macro ./compile.do line 4
+# /ncsu/modelsim10.0c/linux/vlog failed.
+#     while executing
+# "vlog -sv test_xor_few_directed.sv"
+do compile.do
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module xor_design
+# 
+# Top level modules:
+# 	xor_design
+# Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+# -- Compiling module test_xor
+# 
+# Top level modules:
+# 	test_xor
+# vsim -novopt test_xor 
+# Loading sv_std.std
+# Loading work.test_xor
+# Loading work.xor_design
+add wave  \
+sim:/test_xor/golden_ref_output
