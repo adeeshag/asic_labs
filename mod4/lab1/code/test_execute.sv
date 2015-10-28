@@ -26,13 +26,21 @@
  class Instruction; 
 	typedef struct packed {
 			reg [7:0] 	opcode;
-			reg [31:0]	op1;
-			reg [31:0]	op2;
-	}instr;
+			reg [31:0]	operand1;
+			reg [31:0]	operand2;
+	}instruc;
+   instruc inst; // create instance of instruction packet
+   function new();
+	   inst.opcode=$urandom_range(1,7);
+	   inst.operand1=$random;
+	   inst.operand2=$random;
+   endfunction
+
 	
 endclass
 
 //declare handle
+Instruction inst_gen;
 
 
  always #5 clk=~clk;
@@ -60,11 +68,11 @@ task resetfn();
 endtask
 
 task generate_instr();
-	//inst_gen=new();
-	inst_opcode=$urandom_range(1,7);
-	inst_operand1=$random;
-	inst_operand2=$random;
-	$display($time,"[TEST][GEN]Instruction[%d][%d][%d]",inst_opcode,inst_operand1,inst_operand2); 
+	inst_gen=new();
+	//inst_opcode=$urandom_range(1,7);
+	//inst_operand1=$random;
+	//inst_operand2=$random;
+	$display($time,"[TEST][GEN]Instruction[%d][%d][%d]",inst_gen.inst.opcode,inst_gen.inst.operand1,inst_gen.inst.operand2); 
 endtask
 
 task send();
