@@ -4,3 +4,5 @@ work/
 *.vhd
 *.asm
 *.rw
+*.wlf
+transcript
