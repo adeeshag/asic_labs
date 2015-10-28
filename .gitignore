@@ -1,0 +1,6 @@
+work/
+*.dat
+*.dbs
+*.vhd
+*.asm
+*.rw
